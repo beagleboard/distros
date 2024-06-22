@@ -1,0 +1,43 @@
+{
+  "imager": {
+    "latest_version": "2.0.0",
+    "url": "https://www.beagleboard.org/distros.json",
+    "devices": [
+      {
+        "name": "No filtering",
+        "tags": [],
+        "default": false,
+        "description": "Show every possible image",
+        "matching_type": "inclusive"
+      },
+      {
+        "name": "BeagleY-AI",
+        "tags": [
+          "beagle-am67"
+        ],
+        "default": false,
+        "icon": "https://www.beagleboard.org/app/uploads/2024/06/BeagleY-AI-angled-front-1-400x267-1.png",
+        "description": "BeagleY-AI based on TI AM67A",
+        "matching_type": "inclusive"
+      }
+    ]
+  },
+  "os_list": [
+    {
+      "name": "BeagleY-AI Debian XFCE (Recommended)",
+      "description": "Debian graphical user interface (XFCE) image for BeagleY-AI based on TI AM67A (J722S) processor",
+      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-12.5-xfce-arm64-2024-06-15-12gb.img.xz",
+      "extract_size": 12884901888,
+      "extract_sha256": "ee0a4777bc85e2a1aa3c73424e6aeee7b8c058c32b6054babec26c4d984a70a0",
+      "image_download_size": 1469759480,
+      "image_download_sha256": "fe347277e7e5fbc9e8487a59b0c4ade2f609bc98cfe5eead1b0c3bac98627edc",
+      "release_date": "2024-06-15",
+      "init_format": "sysconf",
+      "devices": [
+        "beagle-am67",
+        "recommended"
+      ]
+    }
+  ]
+}
