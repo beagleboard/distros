@@ -1,0 +1,17 @@
+image: robertcnelson/beagle-devscripts-debian-12-arm64:latest
+# https://openbeagle.org/beagleboard/ci-docker-images
+
+pages:
+  tags:
+    - docker-aarch64-ci
+  stage: build
+  script:
+    - mkdir -p ./public/
+    - cp -v ./os_list.json ./public/
+    - apindex public
+  artifacts:
+    when: on_success
+    paths:
+      - public
+  only:
+  - main
