@@ -44,7 +44,7 @@
         "tags": [
           "beaglev-fire"
         ],
-        "icon": "https://www.beagleboard.org/app/uploads/2023/10/1-102110898-BeagleV-Fire-45-degree-front.jpg,
+        "icon": "https://www.beagleboard.org/app/uploads/2023/10/1-102110898-BeagleV-Fire-45-degree-front.jpg",
         "description": "BeagleV-Fire based on Microchip PolarFire SoC",
         "matching_type": "inclusive"
       },
