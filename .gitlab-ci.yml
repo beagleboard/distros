@@ -1,5 +1,5 @@
-image: robertcnelson/beagle-devscripts-debian-12-amd64:latest
-# https://openbeagle.org/beagleboard/ci-docker-images
+image: registry.git.beagleboard.org/jkridner/debian-build:latest
+# https://openbeagle.org/jkridner/debian-build
 
 stages:
   - lint
