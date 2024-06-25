@@ -6,9 +6,6 @@ stages:
   - deploy
 
 lint:
-  tags:
-  tags:
-    - docker-aarch64-ci
   stage: lint
   before_script:
     - apt-get update && apt-get install -y jsonlint
@@ -16,8 +13,6 @@ lint:
     - jsonlint -v os_list.json
 
 deploy:
-  tags:
-    - docker-aarch64-ci
   stage: deploy
   script:
     - mkdir -p ~/.ssh
