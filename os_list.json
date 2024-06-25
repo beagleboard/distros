@@ -92,6 +92,22 @@
         "beagle-am62",
         "recommended"
       ]
+    },
+    {
+      "name": "BeagleBone AI-64 Debian XFCE (Recommended)",
+      "description": "Debian graphical user interface (XFCE) image for BeagleBone AI-64 based on TI TDA4VM processor",
+      "icon": "https://www.beagleboard.org/app/uploads/2024/06/bbai64-front-a-2.png",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-12.5-xfce-arm64-2024-06-25-12gb.img.xz",
+      "extract_size": 12884901888,
+      "extract_sha256": "96e1d6dc6b85f942c1fd93dc9d00f222ac0fe47a56bad088dd66e0d1d9bf502b",
+      "image_download_size": 1463779276,
+      "image_download_sha256": "0b31f7079e228742199c4855ab6d1820ce9a71ca2a63086b0f805d5f36154bcc",
+      "release_date": "2024-06-25",
+      "init_format": "sysconf",
+      "devices": [
+        "beagle-tda4vm",
+        "recommended"
+      ]
     }
   ]
 }
