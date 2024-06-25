@@ -14,6 +14,8 @@ lint:
 
 deploy:
   stage: deploy
+  before_script:
+    - apt-get update && apt-get install -y openssh-client
   script:
     - mkdir -p ~/.ssh
     - eval "$(ssh-agent -s)"
