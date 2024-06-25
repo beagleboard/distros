@@ -76,7 +76,7 @@
         "beagle-am67",
         "recommended"
       ]
-    }
+    },
     {
       "name": "BeaglePlay Debian XFCE (Recommended)",
       "description": "Debian graphical user interface (XFCE) image for BeaglePlay based on TI AM62 processor",
