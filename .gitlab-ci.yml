@@ -20,6 +20,6 @@ deploy:
     - mkdir -p ~/.ssh
     - eval "$(ssh-agent -s)"
     - echo "${PRIVATE_KEY}" | base64 -d | ssh-add -
-    - rsync -e 'scp -p 45 -o "StrictHostKeyChecking=no"' -vP os_list.json docs@beagleboard.org:/mnt/debian/distros.json
+    - scp -P 45 -o "StrictHostKeyChecking=no" os_list.json docs@beagleboard.org:/mnt/debian/distros.json
   only:
     - main
