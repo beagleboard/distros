@@ -10,7 +10,7 @@ lint:
   before_script:
     - apt-get update && apt-get install -y jsonlint
   script:
-    - jsonlint -v os_list.json
+    - jsonlint-php os_list.json
 
 deploy:
   stage: deploy
