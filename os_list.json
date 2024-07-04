@@ -143,7 +143,7 @@
     },
     {
       "name": "eMMC Flashing (other)",
-      "description": "Flash the onboard eMMC images",
+      "description": "Images that will Flash the onboard eMMC on bootup",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "subitems": [
         {
