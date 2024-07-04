@@ -81,12 +81,28 @@
       "name": "BeaglePlay Debian XFCE (Recommended)",
       "description": "A port of Debian Bookworm with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-12.6-xfce-arm64-2024-07-03-12gb.img.xz",
+      "url": "https://rcn-ee.net/rootfs/debian-arm64-12-bookworm-xfce-v6.6-ti/2024-07-04/beagleplay-debian-12.6-xfce-arm64-2024-07-04-12gb.img.xz",
       "extract_size": 12884901888,
-      "extract_sha256": "0a165d194a7e251baffd3783c4992c9fdf4675eece75500789bf98c3f3622fc0",
-      "image_download_size": 1476170832,
-      "image_download_sha256": "c3a9b4fa4222d590a0665ce993d2e0e9f590ba3d2823396811a48ac56763d882",
-      "release_date": "2024-07-03",
+      "extract_sha256": "474e7b36ec793c6c407b835736aa62ae3d31c67097c3b614519d48dbf593d3ba",
+      "image_download_size": 1474160380,
+      "image_download_sha256": "5839ed80f00def7b22bff42c5bfb0db799bfa89c4b6f502d0c940045266a683b",
+      "release_date": "2024-07-04",
+      "init_format": "sysconf",
+      "devices": [
+        "beagle-am62",
+        "recommended"
+      ]
+    },
+    {
+      "name": "BeaglePlay Debian Minimal",
+      "description": "A port of Debian Bookworm with no desktop environment for BeaglePlay based on TI AM62 processor",
+      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+      "url": "https://rcn-ee.net/rootfs/debian-arm64-12-bookworm-minimal-v6.6-ti/2024-07-04/beagleplay-debian-12.6-minimal-arm64-2024-07-04-8gb.img.xz",
+      "extract_size": 8053063680,
+      "extract_sha256": "a757395cb1632b725d66861267e6677b563a07f268bd53a20ca19e032724210a",
+      "image_download_size": 547131836,
+      "image_download_sha256": "df96d035e4cbe2e769176e419738cb23476dfabe8c8438e8b3e447353f6c19a1",
+      "release_date": "2024-07-04",
       "init_format": "sysconf",
       "devices": [
         "beagle-am62",
@@ -97,12 +113,12 @@
       "name": "BeagleBone AI-64 Debian XFCE (Recommended)",
       "description": "A port of Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-12.6-xfce-arm64-2024-07-03-12gb.img.xz",
+      "url": "https://rcn-ee.net/rootfs/debian-arm64-12-bookworm-xfce-v6.1-ti/2024-07-04/bbai64-debian-12.6-xfce-arm64-2024-07-04-12gb.img.xz",
       "extract_size": 12884901888,
-      "extract_sha256": "469affd450e59d41ba955d839af3fab00cf73d7a9762b7a4c95ef32cfbb069b1",
-      "image_download_size": 1469668276,
-      "image_download_sha256": "03caa6b59a506cbde67a15e4349c037fe938cef90b4ed1f0ca864563ea2eda64",
-      "release_date": "2024-07-03",
+      "extract_sha256": "cb9ed2cdf10e6630dc0f06645f5901d201500474446e8dc7dbed6ed709ea6897",
+      "image_download_size": 1468352940,
+      "image_download_sha256": "a0e22f7072a5799471b517a76fcc1cb0559a5fc61dfb8778bec1ca3f69eed39f",
+      "release_date": "2024-07-04",
       "init_format": "sysconf",
       "devices": [
         "beagle-tda4vm",
@@ -131,14 +147,46 @@
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "subitems": [
         {
+          "name": "BeaglePlay Debian eMMC Flasher XFCE",
+          "description": "A port of Debian Bookworm with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
+          "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+          "url": "https://rcn-ee.net/rootfs/debian-arm64-12-bookworm-xfce-v6.6-ti/2024-07-04/beagleplay-emmc-flasher-debian-12.6-xfce-arm64-2024-07-04-12gb.img.xz",
+          "extract_size": 12884901888,
+          "extract_sha256": "29b8a53f0e0954ee814d7bc5ccb6220d342fd13c5710a1d5b40fc6c0e4b2ff7f",
+          "image_download_size": 1476711104,
+          "image_download_sha256": "a7d0e4b70ef9780a69d457e60d69684eb2cd0e8f1ef465be742de854165a5942",
+          "release_date": "2024-07-04",
+          "init_format": "sysconf",
+          "devices": [
+            "beagle-am62",
+            "recommended"
+          ]
+        },
+        {
+          "name": "BeaglePlay Debian eMMC Flasher Minimal",
+          "description": "A port of Debian Bookworm with no desktop environment for BeaglePlay based on TI AM62 processor",
+          "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+          "url": "https://rcn-ee.net/rootfs/debian-arm64-12-bookworm-minimal-v6.6-ti/2024-07-04/beagleplay-emmc-flasher-debian-12.6-minimal-arm64-2024-07-04-8gb.img.xz",
+          "extract_size": 8053063680,
+          "extract_sha256": "e008f50a0127bd103c7352e8946712b7a62715aa22fdb37c0a1748f81ea04246",
+          "image_download_size": 547260624,
+          "image_download_sha256": "dabdd08a23068dc4027b49c72a7fcc6486949620369bbe54e53507ab8efa98df",
+          "release_date": "2024-07-04",
+          "init_format": "sysconf",
+          "devices": [
+            "beagle-am62",
+            "recommended"
+          ]
+        },
+        {
           "name": "BeagleBone AI-64 Debian eMMC Flasher XFCE",
           "description": "A port of Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor",
           "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
-          "url": "https://rcn-ee.net/rootfs/debian-arm64-12-bookworm-minimal-v6.1-ti/2024-07-04/bbai64-emmc-flasher-debian-12.6-minimal-arm64-2024-07-04-8gb.img.xz",
-          "extract_size": 8053063680,
-          "extract_sha256": "d17ccadbab27bc6a4408f59b3d8a25d7001ee7a118b1eb60b03219b335242bde",
-          "image_download_size": 547585380,
-          "image_download_sha256": "e2735505a0957f8cadea46ebe4fc4d9964890b35c8cf326e62a581bb1bd6afeb",
+          "url": "https://rcn-ee.net/rootfs/debian-arm64-12-bookworm-xfce-v6.1-ti/2024-07-04/bbai64-emmc-flasher-debian-12.6-xfce-arm64-2024-07-04-12gb.img.xz",
+          "extract_size": 12884901888,
+          "extract_sha256": "54891d2301ad54445558656885413790a5e96481e84443c8ed17ebb2f24bd465",
+          "image_download_size": 1471951584,
+          "image_download_sha256": "98cfcd1c9e53c18ca652d93af6ad7a56e85365aab9f8cfe3079f63b3b8af399e",
           "release_date": "2024-07-04",
           "init_format": "sysconf",
           "devices": [
