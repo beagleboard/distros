@@ -124,6 +124,45 @@
         "beagle-tda4vm",
         "recommended"
       ]
+    },
+    {
+      "name": "eMMC Flashing (other)",
+      "description": "Flash the onboard eMMC images",
+      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+      "subitems": [
+        {
+          "name": "BeagleBone AI-64 Debian eMMC Flasher XFCE",
+          "description": "A port of Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor",
+          "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+          "url": "https://rcn-ee.net/rootfs/debian-arm64-12-bookworm-minimal-v6.1-ti/2024-07-04/bbai64-emmc-flasher-debian-12.6-minimal-arm64-2024-07-04-8gb.img.xz",
+          "extract_size": 8053063680,
+          "extract_sha256": "d17ccadbab27bc6a4408f59b3d8a25d7001ee7a118b1eb60b03219b335242bde",
+          "image_download_size": 547585380,
+          "image_download_sha256": "e2735505a0957f8cadea46ebe4fc4d9964890b35c8cf326e62a581bb1bd6afeb",
+          "release_date": "2024-07-04",
+          "init_format": "sysconf",
+          "devices": [
+            "beagle-tda4vm",
+            "recommended"
+          ]
+        },
+        {
+          "name": "BeagleBone AI-64 Debian eMMC Flasher Minimal",
+          "description": "A port of Debian Bookworm with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor",
+          "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+          "url": "https://rcn-ee.net/rootfs/debian-arm64-12-bookworm-minimal-v6.1-ti/2024-07-04/bbai64-emmc-flasher-debian-12.6-minimal-arm64-2024-07-04-8gb.img.xz",
+          "extract_size": 8053063680,
+          "extract_sha256": "d17ccadbab27bc6a4408f59b3d8a25d7001ee7a118b1eb60b03219b335242bde",
+          "image_download_size": 547585380,
+          "image_download_sha256": "e2735505a0957f8cadea46ebe4fc4d9964890b35c8cf326e62a581bb1bd6afeb",
+          "release_date": "2024-07-04",
+          "init_format": "sysconf",
+          "devices": [
+            "beagle-tda4vm",
+            "recommended"
+          ]
+        }
+      ]
     }
   ]
 }
