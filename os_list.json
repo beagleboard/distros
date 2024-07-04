@@ -63,7 +63,7 @@
   "os_list": [
     {
       "name": "BeagleY-AI Debian XFCE (Recommended)",
-      "description": "Debian graphical user interface (XFCE) image for BeagleY-AI based on TI AM67A (J722S) processor",
+      "description": "A port of Debian Bookworm with the Xfce Desktop for BeagleY-AI based on TI AM67A (J722S) processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-12.6-xfce-arm64-2024-07-03-12gb.img.xz",
       "extract_size": 12884901888,
@@ -79,7 +79,7 @@
     },
     {
       "name": "BeaglePlay Debian XFCE (Recommended)",
-      "description": "Debian graphical user interface (XFCE) image for BeaglePlay based on TI AM62 processor",
+      "description": "A port of Debian Bookworm with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-12.6-xfce-arm64-2024-07-03-12gb.img.xz",
       "extract_size": 12884901888,
@@ -95,7 +95,7 @@
     },
     {
       "name": "BeagleBone AI-64 Debian XFCE (Recommended)",
-      "description": "Debian graphical user interface (XFCE) image for BeagleBone AI-64 based on TI TDA4VM processor",
+      "description": "A port of Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-12.6-xfce-arm64-2024-07-03-12gb.img.xz",
       "extract_size": 12884901888,
@@ -103,6 +103,22 @@
       "image_download_size": 1469668276,
       "image_download_sha256": "03caa6b59a506cbde67a15e4349c037fe938cef90b4ed1f0ca864563ea2eda64",
       "release_date": "2024-07-03",
+      "init_format": "sysconf",
+      "devices": [
+        "beagle-tda4vm",
+        "recommended"
+      ]
+    },
+    {
+      "name": "BeagleBone AI-64 Debian Minimal",
+      "description": "A port of Debian Bookworm with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor",
+      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+      "url": "https://rcn-ee.net/rootfs/debian-arm64-12-bookworm-minimal-v6.1-ti/2024-07-04/bbai64-debian-12.6-minimal-arm64-2024-07-04-8gb.img.xz",
+      "extract_size": 8053063680,
+      "extract_sha256": "8b16574d56ba98f4e11588de12072410ee080a12d5216d65144e1571d904c26b",
+      "image_download_size": 549333248,
+      "image_download_sha256": "b9ede0054744ca37c5da35b543caa18bc45454cd58520ac312c7676600a4d0a7",
+      "release_date": "2024-07-04",
       "init_format": "sysconf",
       "devices": [
         "beagle-tda4vm",
