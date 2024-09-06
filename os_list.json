@@ -227,6 +227,29 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Testing Images (other)",
+      "description": "These images will Flash the onboard eMMC on first bootup",
+      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+      "subitems": [
+        {
+          "name": "BeagleY-AI Debian v6.6.x Testing XFCE",
+          "description": "Debian Bookworm with the Xfce Desktop for BeagleY-AI based on TI AM67A (J722S) processor",
+          "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+          "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-12.7-xfce-arm64-2024-09-06-12gb.img.xz",
+          "extract_size": 12884901888,
+          "extract_sha256": "8064ba941462e54452934ed4b7280f50454c04d444aae7553961ec4bc53af663",
+          "image_download_size": 1497425360,
+          "image_download_sha256": "97707b514a8d6abe63ffb5caaa5a916530c88a100fddcc04f2ef9d56cbfdb880",
+          "release_date": "2024-09-06",
+          "init_format": "sysconf",
+          "devices": [
+            "beagle-am67",
+            "recommended"
+          ]
+        }
+      ]
     }
   ]
 }
