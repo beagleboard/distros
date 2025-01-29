@@ -32,7 +32,7 @@
       {
         "name": "PocketBeagle 2",
         "tags": [
-          "beagle-am62"
+          "pocketbeagle2-am62"
         ],
         "icon": "https://openbeagle.org/lorforlinux/docs.beagleboard.io/-/raw/main/boards/pocketbeagle-2/images/product/pocketbeagle-2-45-front.jpg",
         "description": "PocketBeagle 2 and other boards based on TI AM62",
@@ -153,7 +153,7 @@
     {
       "name": "PocketBeagle 2 Debian v6.12.x Minimal (Recommended)",
       "description": "Debian Bookworm with no desktop environment for PocketBeagle 2 based on TI AM62 processor",
-      "icon": "https://openbeagle.org/lorforlinux/docs.beagleboard.io/-/raw/main/boards/pocketbeagle-2/images/product/pocketbeagle-2-45-front.jpg",
+      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-12.9-minimal-arm64-2025-01-29-8gb.img.xz",
       "extract_size": 7818182656,
       "extract_sha256": "da8df5ff2e4e84ad503bce5cf636a573f35050014bbe92b64e1c103c5f33d4c8",
@@ -162,7 +162,7 @@
       "release_date": "2025-01-29",
       "init_format": "sysconf",
       "devices": [
-        "beagle-am62",
+        "pocketbeagle2-am62",
         "recommended"
       ]
     },
