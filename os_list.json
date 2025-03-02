@@ -71,7 +71,7 @@
   },
   "os_list": [
     {
-      "name": "BeagleY-AI Debian v6.1.x XFCE (Recommended)",
+      "name": "BeagleY-AI Debian v6.1.x XFCE-ti (Recommended)",
       "description": "Debian Bookworm with the Xfce Desktop for BeagleY-AI based on TI AM67A (J722S) processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-12.7-xfce-arm64-2024-09-04-12gb.img.xz",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "name": "BeagleY-AI Debian v6.1.x Minimal",
+      "name": "BeagleY-AI Debian v6.1.x-ti Minimal",
       "description": "Debian Bookworm with no desktop environment for BeagleY-AI based on TI AM67A (J722S) processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-12.7-minimal-arm64-2024-09-06-8gb.img.xz",
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "name": "BeaglePlay Debian v6.6.x XFCE (Recommended)",
+      "name": "BeaglePlay Debian v6.6.x-ti XFCE (Recommended)",
       "description": "Debian Bookworm with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-12.7-xfce-arm64-2024-09-04-12gb.img.xz",
@@ -119,7 +119,7 @@
       ]
     },
     {
-      "name": "BeaglePlay Debian v6.6.x Minimal",
+      "name": "BeaglePlay Debian v6.6.x-ti Minimal",
       "description": "Debian Bookworm with no desktop environment for BeaglePlay based on TI AM62 processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-12.7-minimal-arm64-2024-09-04-8gb.img.xz",
@@ -135,7 +135,23 @@
       ]
     },
     {
-      "name": "BeagleBone AI-64 Debian v6.6.x XFCE (Recommended)",
+      "name": "BeagleBone AI-64 Debian v6.12.x-ti XFCE (Recommended)",
+      "description": "Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor",
+      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-12.9-xfce-arm64-2025-03-01-12gb.img.xz",
+      "extract_size": 12884901888,
+      "extract_sha256": "29dc57697a5fd1999bf1a846e1bfd70ae2eea3b1e18febc2e7451f9ce42b24a2",
+      "image_download_size": 1506728568,
+      "image_download_sha256": "d6e000a723a1c2439906a9ea230fff3b9e9af2edeae0a97feb454d6ace03f1d3",
+      "release_date": "2025-03-01",
+      "init_format": "sysconf",
+      "devices": [
+        "beagle-tda4vm",
+        "recommended"
+      ]
+    },
+    {
+      "name": "BeagleBone AI-64 Debian v6.6.x-ti XFCE",
       "description": "Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-12.7-xfce-arm64-2024-09-04-12gb.img.xz",
@@ -151,7 +167,7 @@
       ]
     },
     {
-      "name": "PocketBeagle 2 Debian v6.12.x Minimal (Recommended)",
+      "name": "PocketBeagle 2 Debian v6.12.x-ti Minimal (Recommended)",
       "description": "Debian Bookworm with no desktop environment for PocketBeagle 2 based on TI AM62 processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-12.9-minimal-arm64-2025-02-13-8gb.img.xz",
@@ -167,7 +183,23 @@
       ]
     },
     {
-      "name": "BeagleBone AI-64 Debian v6.6.x Minimal",
+      "name": "BeagleBone AI-64 Debian v6.12.x-ti Minimal",
+      "description": "Debian Bookworm with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor",
+      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-12.9-minimal-arm64-2025-03-01-8gb.img.xz",
+      "extract_size": 7818182656,
+      "extract_sha256": "5b9e3f6ff4ca88d307f9bbf5c8bcd0de0fa342e34346c66324d3af34a283d855",
+      "image_download_size": 557077184,
+      "image_download_sha256": "1558a7d8456ad54bc598f373d086dd962b82fec7b900636600ff4f38916ede03",
+      "release_date": "2025-03-01",
+      "init_format": "sysconf",
+      "devices": [
+        "beagle-tda4vm",
+        "recommended"
+      ]
+    },
+    {
+      "name": "BeagleBone AI-64 Debian v6.6.x-ti Minimal",
       "description": "Debian Bookworm with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-12.7-minimal-arm64-2024-09-04-8gb.img.xz",
@@ -188,7 +220,7 @@
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "subitems": [
         {
-          "name": "BeaglePlay Debian v6.6.x eMMC XFCE Flasher",
+          "name": "BeaglePlay Debian v6.6.x-ti eMMC XFCE Flasher",
           "description": "Debian Bookworm with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
           "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
           "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-12.7-xfce-arm64-2024-09-04-12gb.img.xz",
@@ -204,7 +236,7 @@
           ]
         },
         {
-          "name": "BeaglePlay Debian v6.6.x eMMC Minimal Flasher",
+          "name": "BeaglePlay Debian v6.6.x-ti eMMC Minimal Flasher",
           "description": "Debian Bookworm with no desktop environment for BeaglePlay based on TI AM62 processor",
           "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
           "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-12.7-minimal-arm64-2024-09-04-8gb.img.xz",
@@ -220,7 +252,23 @@
           ]
         },
         {
-          "name": "BeagleBone AI-64 Debian v6.6.x eMMC XFCE Flasher",
+          "name": "BeagleBone AI-64 Debian v6.12.x-ti eMMC XFCE Flasher",
+          "description": "Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor",
+          "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+          "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-12.9-xfce-arm64-2025-03-01-12gb.img.xz",
+          "extract_size": 12884901888,
+          "extract_sha256": "84af9e502cf0349f916be44e7c46716e8459260721e1ea74edacd5f93879c7de",
+          "image_download_size": 1507038828,
+          "image_download_sha256": "99ff76f005598264f30fdbf4efa2e5c08fb301b62572b8ea86b815fd984ef859",
+          "release_date": "2025-03-01",
+          "init_format": "sysconf",
+          "devices": [
+            "beagle-tda4vm",
+            "recommended"
+          ]
+        },
+        {
+          "name": "BeagleBone AI-64 Debian v6.6.x-ti eMMC XFCE Flasher",
           "description": "Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor",
           "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
           "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-12.7-xfce-arm64-2024-09-04-12gb.img.xz",
@@ -236,7 +284,23 @@
           ]
         },
         {
-          "name": "BeagleBone AI-64 Debian v6.6.x eMMC Minimal Flasher",
+          "name": "BeagleBone AI-64 Debian v6.12.x-ti eMMC Minimal Flasher",
+          "description": "Debian Bookworm with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor",
+          "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+          "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-12.9-minimal-arm64-2025-03-01-8gb.img.xz",
+          "extract_size": 7818182656,
+          "extract_sha256": "06edaa867c99d7754749065cc15aeb6932e30baed94045726ef2d17d6239921c",
+          "image_download_size": 560441556,
+          "image_download_sha256": "6cf082cd60e818e3f2bcce9febabbe9a5ef0dac31a8a441cc8b464f94979682b",
+          "release_date": "2025-03-01",
+          "init_format": "sysconf",
+          "devices": [
+            "beagle-tda4vm",
+            "recommended"
+          ]
+        },
+        {
+          "name": "BeagleBone AI-64 Debian v6.6.x-ti eMMC Minimal Flasher",
           "description": "Debian Bookworm with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor",
           "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
           "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-12.7-minimal-arm64-2024-09-04-8gb.img.xz",
@@ -259,7 +323,7 @@
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "subitems": [
         {
-          "name": "BeagleY-AI Debian v6.6.x Testing XFCE",
+          "name": "BeagleY-AI Debian v6.6.x-ti Testing XFCE",
           "description": "Debian Bookworm with the Xfce Desktop for BeagleY-AI based on TI AM67A (J722S) processor",
           "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
           "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-12.7-xfce-arm64-2024-09-06-12gb.img.xz",
