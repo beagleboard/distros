@@ -78,7 +78,7 @@
       "extract_size": 12884901888,
       "extract_sha256": "ffcd2cdf5db48d75a84f8fb2eab93b259edbfaefd2a4d7de02f38116ef1e7944",
       "image_download_size": 1504936176,
-      "image_download_sha256": "2286ce122ebe0f963b48c0d34caa4cbc4deb66d32202f082043d832e91c51c67",
+      "image_download_sha256": "83ec79a4ff13bde5c008ab2e84799e72cb8f418b2796af84fa9b09f521a5e995",
       "release_date": "2025-03-05",
       "init_format": "sysconf",
       "devices": [
