@@ -1,0 +1,7 @@
+- name: BeaglePlay
+  tags:
+    - beagle-am62
+  default: false
+  icon: https://www.beagleboard.org/app/uploads/2024/03/image6.png
+  description: BeaglePlay and other boards based on TI AM62
+  matching_type: inclusive

@@ -1,0 +1,14 @@
+- name: BeagleY-AI Debian v6.1.x-ti Minimal
+  description: Debian Bookworm with no desktop environment for BeagleY-AI based
+    on TI AM67A (J722S) processor
+  icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-12.9-minimal-arm64-2025-03-05-8gb.img.xz
+  extract_size: 7818182656
+  extract_sha256: 3b01862d022e316335a5ad36ef1af0bb87b23994043bc1ee5895e2b9012d4448
+  image_download_size: 555760688
+  image_download_sha256: b3241f465426184a3c844b588008a0706a1873bdd75d96b8d2ac5cacd79e051e
+  release_date: '2025-03-05'
+  init_format: sysconf
+  devices:
+    - beagle-am67
+    - recommended

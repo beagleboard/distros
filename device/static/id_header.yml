@@ -1,0 +1,9 @@
+imager:
+  latest_version: 2.0.0
+  url: https://www.beagleboard.org/distros.json
+  devices:
+    - name: No filtering
+      tags: []
+      default: false
+      description: Show every possible image
+      matching_type: inclusive

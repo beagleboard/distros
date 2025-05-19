@@ -1,0 +1,7 @@
+- name: PocketBeagle 2
+  tags:
+    - pocketbeagle2-am62
+  default: false
+  icon: https://openbeagle.org/lorforlinux/docs.beagleboard.io/-/raw/main/boards/pocketbeagle-2/images/product/pocketbeagle-2-45-front.jpg
+  description: PocketBeagle 2 and other boards based on TI AM62
+  matching_type: inclusive

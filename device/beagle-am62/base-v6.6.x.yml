@@ -1,0 +1,14 @@
+- name: BeaglePlay Debian v6.6.x-ti Minimal
+  description: Debian Bookworm with no desktop environment for BeaglePlay based
+    on TI AM62 processor
+  icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-12.7-minimal-arm64-2024-09-04-8gb.img.xz
+  extract_size: 8053063680
+  extract_sha256: 1ffefdd917a3c3deea09b443ea32f1d7ad2a99aa51540336f9641fef1632c9c4
+  image_download_size: 549626444
+  image_download_sha256: 6c2d385c4c733ad967b22b6a618f17d968fb86f2b8cbe94e6a65a63a839788a4
+  release_date: '2024-09-04'
+  init_format: sysconf
+  devices:
+    - beagle-am62
+    - recommended

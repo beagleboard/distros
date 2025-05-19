@@ -1,0 +1,14 @@
+- name: BeagleBone AI-64 Debian v6.6.x-ti eMMC XFCE Flasher
+  description: Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based
+    on TI TDA4VM processor
+  icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-12.7-xfce-arm64-2024-09-04-12gb.img.xz
+  extract_size: 12884901888
+  extract_sha256: f7f02e85cefa2b732c4202e53c58c02962cb5fb75b71d7c02d9d738e497a2f5c
+  image_download_size: 1479139728
+  image_download_sha256: d73f31bfffc92dc0f12ed3e01f4e5bd5ec1d7cc756f4db114e0b8f8a12df3890
+  release_date: '2024-09-04'
+  init_format: sysconf
+  devices:
+    - beagle-tda4vm
+    - recommended

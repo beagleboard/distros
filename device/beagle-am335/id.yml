@@ -1,0 +1,7 @@
+- name: BeagleBone Black
+  tags:
+    - beagle-am335
+  default: false
+  icon: https://www.beagleboard.org/app/uploads/2022/10/product_beaglebone_black.jpg
+  description: BeagleBone Black and other boards based on TI AM335
+  matching_type: inclusive

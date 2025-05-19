@@ -1,0 +1,14 @@
+- name: BeaglePlay Debian v6.12.x-ti eMMC XFCE Flasher (Recommended)
+  description: Debian Bookworm with the Xfce Desktop for BeaglePlay based on
+    TI AM62 processor
+  icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-12.9-xfce-arm64-2025-03-05-12gb.img.xz
+  extract_size: 12884901888
+  extract_sha256: 73ed75dfd73f26de582bcdc053838c724bb0671952cee6eaa2e9fd232b72bb92
+  image_download_size: 1505002572
+  image_download_sha256: 17a27dca893cae89af4ab8dadf81b9f1954d54598b2f6fb3d89920f0c133ae6e
+  release_date: '2025-03-05'
+  init_format: sysconf
+  devices:
+    - beagle-am62
+    - recommended

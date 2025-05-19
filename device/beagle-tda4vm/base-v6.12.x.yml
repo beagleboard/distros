@@ -1,0 +1,14 @@
+- name: BeagleBone AI-64 Debian v6.12.x-ti Minimal
+  description: Debian Bookworm with no desktop environment for BeagleBone AI-64
+    based on TI TDA4VM processor
+  icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-12.9-minimal-arm64-2025-03-05-8gb.img.xz
+  extract_size: 7818182656
+  extract_sha256: 306fd95a4eabe054766bc97f836cd2c47085f4f699dda0d343483d021d1ddf31
+  image_download_size: 555387784
+  image_download_sha256: 91835a47acc3142d8ed5a2597a784920b41183f6de483b4a768afe9f21fcd978
+  release_date: '2025-03-05'
+  init_format: sysconf
+  devices:
+    - beagle-tda4vm
+    - recommended

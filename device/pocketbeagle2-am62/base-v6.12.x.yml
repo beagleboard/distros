@@ -1,0 +1,14 @@
+- name: PocketBeagle 2 Debian v6.12.x-ti Minimal (Recommended)
+  description: Debian Bookworm with no desktop environment for PocketBeagle 2 based
+    on TI AM62 processor
+  icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-12.10-minimal-arm64-2025-05-14-8gb.img.xz
+  extract_size: 7818182656
+  extract_sha256: 1569fc8cc7b5882462ead119c2f0348dcfc3b040ab9798ff3af3f6e959b59541
+  image_download_size: 616378428
+  image_download_sha256: 55021ce1d86adf342d54409d15fa8d9878b1eff85fe5520fb48808fb9077aebd
+  release_date: '2025-05-14'
+  init_format: sysconf
+  devices:
+    - pocketbeagle2-am62
+    - recommended

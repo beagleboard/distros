@@ -1,0 +1,7 @@
+- name: BeagleY-AI
+  tags:
+    - beagle-am67
+  default: false
+  icon: https://www.beagleboard.org/app/uploads/2024/06/beagley-ai.svg
+  description: BeagleY-AI based on TI AM67A
+  matching_type: inclusive
