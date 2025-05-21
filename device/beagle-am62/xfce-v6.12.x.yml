@@ -2,12 +2,12 @@
   description: Debian Bookworm with the Xfce Desktop for BeaglePlay based on TI
     AM62 processor
   icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-12.9-xfce-arm64-2025-03-05-12gb.img.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-12.11-xfce-v6.12-arm64-2025-05-21-12gb.img.xz
   extract_size: 12884901888
-  extract_sha256: 623ae2b43e8d91bb9c16111668101d1a90f611a2fdda8194a85d0bcabcc5f437
-  image_download_size: 1508392156
-  image_download_sha256: 0e63f09324463143a8dc9686d0757056c6de26b29389303d0851d129bb10e9a6
-  release_date: '2025-03-05'
+  extract_sha256: 5a6b0b1d47c4872ebf20d489df2198e21efe84f039d5207cb5dbd7b76afdd3de
+  image_download_size: 1418368336
+  image_download_sha256: db38967b0edc04bddec560e3da468b5b7e00b461d61e22fcae1288c891dea7c3
+  release_date: '2025-05-21'
   init_format: sysconf
   devices:
     - beagle-am62
