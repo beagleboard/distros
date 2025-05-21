@@ -122,22 +122,6 @@
       ]
     },
     {
-      "name": "BeaglePlay Debian v6.6.x-ti XFCE",
-      "description": "Debian Bookworm with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
-      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-12.7-xfce-arm64-2024-09-04-12gb.img.xz",
-      "extract_size": 12884901888,
-      "extract_sha256": "25b2fe99414bfac80a1ee05345172432d434f1dfc41013ee50f44c93c9bd79ec",
-      "image_download_size": 1482683500,
-      "image_download_sha256": "13a7b5b239364d30aa620119630260863091f697117d2109f8ec33116b4ae348",
-      "release_date": "2024-09-04",
-      "init_format": "sysconf",
-      "devices": [
-        "beagle-am62",
-        "recommended"
-      ]
-    },
-    {
       "name": "BeaglePlay Debian v6.12.x-ti Minimal",
       "description": "Debian Bookworm with no desktop environment for BeaglePlay based on TI AM62 processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
@@ -296,22 +280,6 @@
           "image_download_size": 1420320064,
           "image_download_sha256": "9d57b50606beaf010ec87254ce82535d07eb569e0c18316b2eabc6c93b2c6c38",
           "release_date": "2025-05-21",
-          "init_format": "sysconf",
-          "devices": [
-            "beagle-am62",
-            "recommended"
-          ]
-        },
-        {
-          "name": "BeaglePlay Debian v6.6.x-ti eMMC XFCE Flasher",
-          "description": "Debian Bookworm with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
-          "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
-          "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-12.7-xfce-arm64-2024-09-04-12gb.img.xz",
-          "extract_size": 12884901888,
-          "extract_sha256": "c1d6585c70fbbfd3f377c8a1c312f6216189e92daef0c1f1ef49d0019ff6bd26",
-          "image_download_size": 1480651992,
-          "image_download_sha256": "7435df5874c7b0beef5e77adfd9da0bc0394cd24601bf816e847786abfc4a706",
-          "release_date": "2024-09-04",
           "init_format": "sysconf",
           "devices": [
             "beagle-am62",
