@@ -186,22 +186,6 @@
       ]
     },
     {
-      "name": "BeagleBone AI-64 Debian v6.6.x-ti XFCE",
-      "description": "Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor",
-      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-12.7-xfce-arm64-2024-09-04-12gb.img.xz",
-      "extract_size": 12884901888,
-      "extract_sha256": "20cc16f942a05705109e28ac812ccde7ededb0768ba246d3ec53f36fd52025e8",
-      "image_download_size": 1482676592,
-      "image_download_sha256": "a265c6ee3846ef86cd4de4c93cb3bea8c473f2a6f174e5433bf8de65a20df1cb",
-      "release_date": "2024-09-04",
-      "init_format": "sysconf",
-      "devices": [
-        "beagle-tda4vm",
-        "recommended"
-      ]
-    },
-    {
       "name": "BeagleBone AI-64 Debian v6.12.x-ti Minimal",
       "description": "Debian Bookworm with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
@@ -280,22 +264,6 @@
           "image_download_size": 1418183768,
           "image_download_sha256": "98c98f695347fc2e9ca58ea796fbf75fc0f3d39cc8491ef34cd7356f0942a801",
           "release_date": "2025-05-21",
-          "init_format": "sysconf",
-          "devices": [
-            "beagle-tda4vm",
-            "recommended"
-          ]
-        },
-        {
-          "name": "BeagleBone AI-64 Debian v6.6.x-ti eMMC XFCE Flasher",
-          "description": "Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor",
-          "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
-          "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-12.7-xfce-arm64-2024-09-04-12gb.img.xz",
-          "extract_size": 12884901888,
-          "extract_sha256": "f7f02e85cefa2b732c4202e53c58c02962cb5fb75b71d7c02d9d738e497a2f5c",
-          "image_download_size": 1479139728,
-          "image_download_sha256": "d73f31bfffc92dc0f12ed3e01f4e5bd5ec1d7cc756f4db114e0b8f8a12df3890",
-          "release_date": "2024-09-04",
           "init_format": "sysconf",
           "devices": [
             "beagle-tda4vm",
