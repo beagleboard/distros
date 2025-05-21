@@ -2,12 +2,12 @@
   description: Debian Bookworm with no desktop environment for BeaglePlay based
     on TI AM62 processor
   icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-12.9-minimal-arm64-2025-03-05-8gb.img.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-12.11-minimal-v6.12-arm64-2025-05-21-8gb.img.xz
   extract_size: 7818182656
-  extract_sha256: 0a8a0eb9133a314995e726a3f74673c4560cd29c9a12defdd34c315caf0d77c6
-  image_download_size: 558679028
-  image_download_sha256: a05485307ff0e193ef8a58e7ce667aa310c21f157e3f0100a0e50cf247530f2f
-  release_date: '2025-03-05'
+  extract_sha256: 782bc344c6a7a2493fc484a16a03b8711c5f70586641abc0199dccf0aef1ad63
+  image_download_size: 635555600
+  image_download_sha256: 588d33ceb78ab6eedc9b71bb4bc20ca10c51fc894147bb7821dc091248df07f2
+  release_date: '2025-05-21'
   init_format: sysconf
   devices:
     - beagle-am62
