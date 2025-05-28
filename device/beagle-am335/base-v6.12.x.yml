@@ -2,12 +2,12 @@
   description: Debian Bookworm with no desktop environment for BeagleBone Black
     based on TI AM335x processor
   icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-swap-vscode-debian-12.11-base-armhf-2025-05-21-4gb.img.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-vscode-debian-12.11-base-vscode-v6.12-armhf-2025-05-27-4gb.img.xz
   extract_size: 3774873600
-  extract_sha256: 84dc59abe6623e7847a7c8a6a91015ce7dd569e05bf82648566fac9b7b03cd1c
-  image_download_size: 388078852
-  image_download_sha256: 33318d274d1225a593b0e327340efa52a727bea11624be1b44e302b5e7378c61
-  release_date: '2025-05-21'
+  extract_sha256: 7bb77b258a7df566df0daa678e30a872c4f33936feff9fee15cd23529f6d9723
+  image_download_size: 409359680
+  image_download_sha256: 14621c1cef9105821ed7ae55e31382b80d7964f74aad419626c3cc7f06e7b8e1
+  release_date: '2025-05-27'
   init_format: sysconf
   devices:
     - beagle-am335
