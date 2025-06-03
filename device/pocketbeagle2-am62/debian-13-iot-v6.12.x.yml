@@ -2,12 +2,12 @@
   description: Debian 13 (Trixie) with no desktop environment for PocketBeagle 2 based
     on TI AM62 processor
   icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-13-iot-v6.12-arm64-2025-05-23-8gb.img.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-13-iot-v6.12-arm64-2025-06-03-8gb.img.xz
   extract_size: 7818182656
-  extract_sha256: 1ebb51a05fcd5a9358084adeba748df8fcb9eea70f88905d6cffb1ac0290f53d
-  image_download_size: 835147820
-  image_download_sha256: 51f1a602fa055050024a3ec729dc303847d3a03db76642030fb71dd756e529c6
-  release_date: '2025-05-23'
+  extract_sha256: 4bc563a50ee7696d18561dde7da39245ea69382048aad703d1494fce8e7647d9
+  image_download_size: 847523224
+  image_download_sha256: e7382bf0fa728c2fa3c010df2fddf7dca480ac2c28faf088f5e59f8229bf614b
+  release_date: '2025-06-03'
   init_format: sysconf
   devices:
     - pocketbeagle2-am62
