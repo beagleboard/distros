@@ -154,7 +154,7 @@
       ]
     },
     {
-      "name": "PocketBeagle 2 Debian 13 v6.12.x-ti IoT (Testing)",
+      "name": "PocketBeagle 2 Debian 13 v6.12.x-ti IoT (Workshop)",
       "description": "Debian 13 (Trixie) with no desktop environment for PocketBeagle 2 based on TI AM62 processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-13-iot-v6.12-arm64-2025-06-11-8gb.img.xz",
