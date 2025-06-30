@@ -218,15 +218,31 @@
       ]
     },
     {
-      "name": "BeagleBone Black v6.12.x VSCode",
+      "name": "BeagleBone Black v6.12.x (LTS) VSCode",
       "description": "Debian Bookworm with no desktop environment for BeagleBone Black based on TI AM335x processor",
       "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.11-base-vscode-v6.12-armhf-2025-05-29-4gb.img.xz",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.11-base-vscode-v6.12-armhf-2025-06-30-4gb.img.xz",
       "extract_size": 3774873600,
-      "extract_sha256": "e0eb053c5938a45e904c0e7fa0916f4bc6a67f5fd3480ace26a0c9a743cbb9d8",
-      "image_download_size": 408451724,
-      "image_download_sha256": "1bf4b92ab2b279681ad8e9fc6e9539ff6f53bd1f1ed80e393dc992e6afc24b6a",
-      "release_date": "2025-05-29",
+      "extract_sha256": "f5af4ac787169bbb81bd3e79cec4b79f186a00ed04496242e362750b40d95aeb",
+      "image_download_size": 414139160,
+      "image_download_sha256": "e138d35ebb5e2e29007153f1e2bde5556df4e55c8f4c5f38855f8053b4188249",
+      "release_date": "2025-06-30",
+      "init_format": "sysconf",
+      "devices": [
+        "beagle-am335",
+        "recommended"
+      ]
+    },
+    {
+      "name": "BeagleBone Black v6.15.x (Stable) VSCode",
+      "description": "Debian Bookworm with no desktop environment for BeagleBone Black based on TI AM335x processor",
+      "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.11-base-vscode-v6.15-armhf-2025-06-30-4gb.img.xz",
+      "extract_size": 3774873600,
+      "extract_sha256": "de7cd193c986df3b4f6ea2fac8a532257e1525fd867df2e6fd9dd7d8caeb1542",
+      "image_download_size": 414623892,
+      "image_download_sha256": "54db5fc30a4432454ac688b610b2f3a2568f609cc49f63c4da1ca3ebfa6f44f1",
+      "release_date": "2025-06-30",
       "init_format": "sysconf",
       "devices": [
         "beagle-am335",
