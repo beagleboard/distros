@@ -10,52 +10,24 @@ run_img () {
 		cat ./device/${device}/xfce-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-
-	if [ -f ./device/${device}/xfce-v6.12.x.yml ] ; then
-		cat ./device/${device}/xfce-v6.12.x.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-
-	if [ -f ./device/${device}/xfce-v6.6.x.yml ] ; then
-		cat ./device/${device}/xfce-v6.6.x.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-
-	if [ -f ./device/${device}/xfce-v6.1.x.yml ] ; then
-		cat ./device/${device}/xfce-v6.1.x.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-
 	if [ -f ./device/${device}/iot-v6.12.x.yml ] ; then
 		cat ./device/${device}/iot-v6.12.x.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-
 	if [ -f ./device/${device}/debian-13-iot-v6.12.x.yml ] ; then
 		cat ./device/${device}/debian-13-iot-v6.12.x.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-
 	if [ -f ./device/${device}/base-lts.yml ] ; then
 		cat ./device/${device}/base-lts.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-
 	if [ -f ./device/${device}/base-stable.yml ] ; then
 		cat ./device/${device}/base-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-
 	if [ -f ./device/${device}/base-v6.12.x.yml ] ; then
 		cat ./device/${device}/base-v6.12.x.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-	if [ -f ./device/${device}/base-v6.6.x.yml ] ; then
-		cat ./device/${device}/base-v6.6.x.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-	if [ -f ./device/${device}/base-v6.1.x.yml ] ; then
-		cat ./device/${device}/base-v6.1.x.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 }
@@ -65,35 +37,8 @@ run_flasher_img () {
 		cat ./device/${device}/flasher-xfce-stable.yml | sed 's/^/    /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-
-	if [ -f ./device/${device}/flasher-xfce-v6.12.x.yml ] ; then
-		cat ./device/${device}/flasher-xfce-v6.12.x.yml | sed 's/^/    /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-	if [ -f ./device/${device}/flasher-xfce-v6.6.x.yml ] ; then
-		cat ./device/${device}/flasher-xfce-v6.6.x.yml | sed 's/^/    /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-	if [ -f ./device/${device}/flasher-xfce-v6.1.x.yml ] ; then
-		cat ./device/${device}/flasher-xfce-v6.1.x.yml | sed 's/^/    /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-
 	if [ -f ./device/${device}/flasher-base-stable.yml ] ; then
 		cat ./device/${device}/flasher-base-stable.yml | sed 's/^/    /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-
-	if [ -f ./device/${device}/flasher-base-v6.12.x.yml ] ; then
-		cat ./device/${device}/flasher-base-v6.12.x.yml | sed 's/^/    /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-	if [ -f ./device/${device}/flasher-base-v6.6.x.yml ] ; then
-		cat ./device/${device}/flasher-base-v6.6.x.yml | sed 's/^/    /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-	if [ -f ./device/${device}/flasher-base-v6.1.x.yml ] ; then
-		cat ./device/${device}/flasher-base-v6.1.x.yml | sed 's/^/    /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 }
