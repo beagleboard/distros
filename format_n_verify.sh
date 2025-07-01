@@ -61,6 +61,11 @@ run_img () {
 }
 
 run_flasher_img () {
+	if [ -f ./device/${device}/flasher-xfce-stable.yml ] ; then
+		cat ./device/${device}/flasher-xfce-stable.yml | sed 's/^/    /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+
 	if [ -f ./device/${device}/flasher-xfce-v6.12.x.yml ] ; then
 		cat ./device/${device}/flasher-xfce-v6.12.x.yml | sed 's/^/    /' >> ./id.yml
 		echo "" >> ./id.yml
@@ -71,6 +76,11 @@ run_flasher_img () {
 	fi
 	if [ -f ./device/${device}/flasher-xfce-v6.1.x.yml ] ; then
 		cat ./device/${device}/flasher-xfce-v6.1.x.yml | sed 's/^/    /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+
+	if [ -f ./device/${device}/flasher-base-stable.yml ] ; then
+		cat ./device/${device}/flasher-base-stable.yml | sed 's/^/    /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 
