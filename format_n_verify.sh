@@ -10,12 +10,12 @@ run_img () {
 		cat ./device/${device}/xfce-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-	if [ -f ./device/${device}/iot-v6.12.x.yml ] ; then
-		cat ./device/${device}/iot-v6.12.x.yml | sed 's/^/  /' >> ./id.yml
+	if [ -f ./device/${device}/iot-stable.yml ] ; then
+		cat ./device/${device}/iot-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-	if [ -f ./device/${device}/debian-13-iot-v6.12.x.yml ] ; then
-		cat ./device/${device}/debian-13-iot-v6.12.x.yml | sed 's/^/  /' >> ./id.yml
+	if [ -f ./device/${device}/debian-13-iot-stable.yml ] ; then
+		cat ./device/${device}/debian-13-iot-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 	if [ -f ./device/${device}/base-lts.yml ] ; then
@@ -24,10 +24,6 @@ run_img () {
 	fi
 	if [ -f ./device/${device}/base-stable.yml ] ; then
 		cat ./device/${device}/base-stable.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-	if [ -f ./device/${device}/base-v6.12.x.yml ] ; then
-		cat ./device/${device}/base-v6.12.x.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 }
