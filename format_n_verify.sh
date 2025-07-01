@@ -6,14 +6,21 @@ run_id () {
 }
 
 run_img () {
+	if [ -f ./device/${device}/xfce-stable.yml ] ; then
+		cat ./device/${device}/xfce-stable.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+
 	if [ -f ./device/${device}/xfce-v6.12.x.yml ] ; then
 		cat ./device/${device}/xfce-v6.12.x.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+
 	if [ -f ./device/${device}/xfce-v6.6.x.yml ] ; then
 		cat ./device/${device}/xfce-v6.6.x.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+
 	if [ -f ./device/${device}/xfce-v6.1.x.yml ] ; then
 		cat ./device/${device}/xfce-v6.1.x.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
@@ -28,7 +35,6 @@ run_img () {
 		cat ./device/${device}/debian-13-iot-v6.12.x.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-
 
 	if [ -f ./device/${device}/base-lts.yml ] ; then
 		cat ./device/${device}/base-lts.yml | sed 's/^/  /' >> ./id.yml
