@@ -2,12 +2,12 @@
   description: Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based
     on TI TDA4VM processor
   icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-12.11-xfce-v6.12-arm64-2025-05-21-12gb.img.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-12.11-xfce-v6.12-arm64-2025-06-30-12gb.img.xz
   extract_size: 12884901888
-  extract_sha256: 2112e6c5864e13c2bd21a08c4903db19c5fbf2611a446921b1f8fa88fc4da942
-  image_download_size: 1418183768
-  image_download_sha256: 98c98f695347fc2e9ca58ea796fbf75fc0f3d39cc8491ef34cd7356f0942a801
-  release_date: '2025-05-21'
+  extract_sha256: 49f7de2a3155e4296a7548cc4a873a9901614372e72aa07af73be3d914fb9425
+  image_download_size: 1411729844
+  image_download_sha256: 71c88213841fd32add4349b583033554617157b23ccf94c0366f1178136d7793
+  release_date: '2025-06-30'
   init_format: sysconf
   devices:
     - beagle-tda4vm
