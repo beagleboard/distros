@@ -76,6 +76,7 @@ device="beagle-am62" ; run_img
 device="pocketbeagle2-am62" ; run_img
 device="beagle-tda4vm" ; run_img
 device="beagle-am335" ; run_img
+device="beaglev-fire" ; run_img
 
 echo "  - name: eMMC Flashing (other)" >> ./id.yml
 echo "    description: These images will Flash the onboard eMMC on first bootup" >> ./id.yml
