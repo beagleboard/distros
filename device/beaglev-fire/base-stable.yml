@@ -1,0 +1,14 @@
+- name: BeagleV-Fire v6.6.x
+  description: Debian Trixie with no desktop environment for BeagleV-Fire
+    based on Microchip Polarfire MPFS025T SoC FPGA
+  icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beaglev-fire-debian-13-iot-v6.6-riscv64-2025-07-01-4gb.img.xz
+  extract_size: 2441695232
+  extract_sha256: 031f2dced78c6216e339561656b068560e4a9845158823b5ee587496accdac58
+  image_download_size: 375050976
+  image_download_sha256: 8a279bed4d470ceac2f22733b362dc57be25577d10ba23a7c991b3fe2684c2da
+  release_date: '2025-07-01'
+  init_format: sysconf
+  devices:
+    - beaglev-fire
+    - recommended
