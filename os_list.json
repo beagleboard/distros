@@ -372,6 +372,22 @@
             "beagle-am67",
             "recommended"
           ]
+        },
+        {
+          "name": "BeagleY-AI TI SDK Edge AI 11.00.00.08",
+          "description": "TI Edge AI image for BeagleY-AI with AI demos, hardware acceleration, and ISP support",
+          "icon": "https://www.beagleboard.org/app/uploads/2022/10/debian.png",
+          "url": "https://files.beagle.cc/file/insert-file-here.img.xz",
+          "extract_size": 10647423078,
+          "extract_sha256": "286cb234a87c432ccec6c771a396091a1d415ddd94c587cbde480ba02b7495e4",
+          "image_download_size": 1164059728,
+          "image_download_sha256": "f35c05eef7ea3508ce8952e98ddbb14391e6f9c50d5baa18bb822123dfdd0f7b",
+          "release_date": "2025-07-03",
+          "init_format": "sysconf",
+          "devices": [
+            "beagle-am67",
+            "recommended"
+          ]
         }
       ]
     }
