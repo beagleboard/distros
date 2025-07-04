@@ -1,7 +1,7 @@
 - name: BeagleY-AI TI SDK Edge AI 11.00.00.08
   description: TI Edge AI image for BeagleY-AI with AI demos, hardware acceleration, and ISP support
   icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
-  url: https://files.beagle.cc/file/insert-file-here.img.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-edge-ai-11.00.00.08-2025-07-03.img.xz
   extract_size: 10647423078
   extract_sha256: 286cb234a87c432ccec6c771a396091a1d415ddd94c587cbde480ba02b7495e4
   image_download_size: 1164059728
