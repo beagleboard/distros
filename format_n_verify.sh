@@ -28,6 +28,13 @@ run_img () {
 	fi
 }
 
+run_ti_edgeai_img() {
+	if [ -f ./device/${device}/ti-edgeai.yml ] ; then
+		cat ./device/${device}/ti-edgeai.yml | sed 's/^/    /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+}
+
 run_flasher_img () {
 	if [ -f ./device/${device}/flasher-xfce-stable.yml ] ; then
 		cat ./device/${device}/flasher-xfce-stable.yml | sed 's/^/    /' >> ./id.yml
@@ -92,6 +99,7 @@ echo "    icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png" >> .
 echo "    subitems:" >> ./id.yml
 
 device="beagle-am67" ; run_test_img
+device="beagle-am67" ; run_ti_edgeai_img
 
 if [ -f /usr/bin/yq ] ; then
 	cat ./id.yml | yq > os_list.json
