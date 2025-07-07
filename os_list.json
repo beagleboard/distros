@@ -66,7 +66,7 @@
           "beagle-am335"
         ],
         "default": false,
-        "icon": "https://www.beagleboard.org/app/uploads/2022/10/product_beaglebone_black.jpg",
+        "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/boards/bbb.png",
         "description": "BeagleBone Black and other boards based on TI AM335",
         "matching_type": "inclusive"
       }
