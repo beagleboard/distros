@@ -1,7 +1,7 @@
 - name: BeagleY-AI Debian v6.1.x-ti XFCE (Recommended)
   description: Debian Bookworm with the Xfce Desktop for BeagleY-AI based on TI
     AM67A (J722S) processor
-  icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-12.11-xfce-v6.1-arm64-2025-06-30-12gb.img.xz
   extract_size: 12884901888
   extract_sha256: 53aeef2d04e34e8d39d5f76a4be4ab805b4e4e487260887250ce639e7adfd3d3
