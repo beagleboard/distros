@@ -1,0 +1,14 @@
+- name: BeagleBone AI-64 Debian v6.12.x-ti eMMC Minimal Flasher
+  description: Debian Bookworm with no desktop environment for BeagleBone AI-64
+    based on TI TDA4VM processor
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-12.11-minimal-v6.12-arm64-2025-06-30-8gb.img.xz
+  extract_size: 7818182656
+  extract_sha256: bfffc74403f7e946060ee4cd7755f6a6ca58d70169abe8acf44df3249b52b97a
+  image_download_size: 622883332
+  image_download_sha256: 517c892a05fe6ad4cc0a9459a483068c0b241eaabdc7d94afa8dfbf592bfa47a
+  release_date: '2025-06-30'
+  init_format: sysconf
+  devices:
+    - beagle-tda4vm
+    - recommended

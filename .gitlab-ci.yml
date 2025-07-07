@@ -1,17 +1,25 @@
-image: robertcnelson/beagle-devscripts-debian-12-arm64:latest
-# https://openbeagle.org/beagleboard/ci-docker-images
+image: registry.git.beagleboard.org/jkridner/debian-build:latest
+# https://openbeagle.org/jkridner/debian-build
 
-pages:
-  tags:
-    - docker-aarch64-ci
-  stage: build
+stages:
+  - lint
+  - deploy
+
+lint:
+  stage: lint
+  before_script:
+    - apt-get update && apt-get install -y jsonlint
   script:
-    - mkdir -p ./public/
-    - cp -v ./os_list.json ./public/
-    - apindex public
-  artifacts:
-    when: on_success
-    paths:
-      - public
+    - jsonlint-php os_list.json
+
+deploy:
+  stage: deploy
+  before_script:
+    - apt-get update && apt-get install -y openssh-client
+  script:
+    - mkdir -p ~/.ssh
+    - eval "$(ssh-agent -s)"
+    - echo "${PRIVATE_KEY}" | base64 -d | ssh-add -
+    - scp -P 45 -o "StrictHostKeyChecking=no" os_list.json docs@beagleboard.org:/mnt/debian/distros.json
   only:
-  - main
+    - main

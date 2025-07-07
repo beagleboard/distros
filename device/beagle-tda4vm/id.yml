@@ -1,0 +1,7 @@
+- name: BeagleBone AI-64
+  tags:
+    - beagle-tda4vm
+  default: false
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/boards/ai64.png
+  description: BeagleBone AI-64 based on TI TDA4VM
+  matching_type: inclusive

@@ -1,0 +1,7 @@
+- name: BeagleV-Fire
+  tags:
+    - beaglev-fire
+  default: false
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/boards/beaglevfire.png
+  description: BeagleV-Fire based on Microchip PolarFire SoC
+  matching_type: inclusive

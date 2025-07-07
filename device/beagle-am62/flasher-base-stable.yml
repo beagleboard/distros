@@ -1,0 +1,14 @@
+- name: BeaglePlay Debian v6.12.x-ti eMMC Minimal Flasher
+  description: Debian Bookworm with no desktop environment for BeaglePlay based
+    on TI AM62 processor
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-12.11-minimal-v6.12-arm64-2025-06-30-8gb.img.xz
+  extract_size: 7818182656
+  extract_sha256: e720d249272096e8d9c676c68f860d8c3b753f5a1f99e9c45dfba8f13bfcfef6
+  image_download_size: 622101796
+  image_download_sha256: a1a674b9458dffd905b906422eda91aeafbecd15f1043babd7b6cc3af4948aab
+  release_date: '2025-06-30'
+  init_format: sysconf
+  devices:
+    - beagle-am62
+    - recommended
