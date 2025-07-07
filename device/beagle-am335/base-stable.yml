@@ -1,7 +1,7 @@
 - name: BeagleBone Black v6.15.x (Stable) VSCode
   description: Debian Bookworm with no desktop environment for BeagleBone Black
     based on TI AM335x processor
-  icon: https://www.beagleboard.org/app/uploads/2022/10/debian.png
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.11-base-vscode-v6.15-armhf-2025-06-30-4gb.img.xz
   extract_size: 3774873600
   extract_sha256: de7cd193c986df3b4f6ea2fac8a532257e1525fd867df2e6fd9dd7d8caeb1542
