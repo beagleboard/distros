@@ -1,5 +1,4 @@
-image: registry.git.beagleboard.org/jkridner/debian-build:latest
-# https://openbeagle.org/jkridner/debian-build
+image: debian:bookworm
 
 stages:
   - lint
