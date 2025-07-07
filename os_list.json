@@ -16,7 +16,7 @@
           "beagle-am67"
         ],
         "default": false,
-        "icon": "https://www.beagleboard.org/app/uploads/2024/06/beagley-ai.svg",
+        "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/boards/beagley.png",
         "description": "BeagleY-AI based on TI AM67A",
         "matching_type": "inclusive"
       },
