@@ -1,5 +1,5 @@
-- name: BeagleBone AI-64 Debian v6.12.x-ti eMMC XFCE Flasher (Recommended)
-  description: Debian Bookworm with the Xfce Desktop for BeagleBone AI-64 based
+- name: BeagleBone AI-64 Debian 12 v6.12.x-ti eMMC XFCE Flasher (Recommended)
+  description: Debian 12 (Bookworm) with the Xfce Desktop for BeagleBone AI-64 based
     on TI TDA4VM processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-12.11-xfce-v6.12-arm64-2025-06-30-12gb.img.xz

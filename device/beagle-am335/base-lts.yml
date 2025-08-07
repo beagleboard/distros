@@ -1,5 +1,5 @@
-- name: BeagleBone Black v6.12.x (LTS) VSCode
-  description: Debian Bookworm with no desktop environment for BeagleBone Black
+- name: BeagleBone Black Debian 12 v6.12.x (LTS) VSCode
+  description: Debian 12 (Bookworm) with no desktop environment for BeagleBone Black
     based on TI AM335x processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.11-base-vscode-v6.12-armhf-2025-06-30-4gb.img.xz
