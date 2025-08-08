@@ -218,15 +218,15 @@
       ]
     },
     {
-      "name": "BeagleBone Black Debian 12 v6.12.x (LTS) VSCode",
-      "description": "Debian 12 (Bookworm) with no desktop environment for BeagleBone Black based on TI AM335x processor",
+      "name": "BeagleBone Black Debian 13 v5.10.x-ti (Old Compatible)",
+      "description": "Debian 13 (Trixie) with no desktop environment for BeagleBone Black based on TI AM335x processor",
       "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.11-base-vscode-v6.12-armhf-2025-08-07-4gb.img.xz",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13-base-v5.10-ti-armhf-2025-08-08-4gb.img.xz",
       "extract_size": 3774873600,
-      "extract_sha256": "afd34ce0bbf88045ed023d4c0fc9e6d012827cfc19d477046d95874ca3f83913",
-      "image_download_size": 425905664,
-      "image_download_sha256": "c16bc3b46593ff17cd747d3c2db1c0aefcae94c69574c255c8f57e14107a5294",
-      "release_date": "2025-08-07",
+      "extract_sha256": "a9210372195d80b229090aa19741133e521a062dd1eb80fa137e16dc84591920",
+      "image_download_size": 363717156,
+      "image_download_sha256": "1899b86d880ef1fea7d78a6c31a46993c25ee109fddd614e35c69c4c7b186cf2",
+      "release_date": "2025-08-08",
       "init_format": "sysconf",
       "devices": [
         "beagle-am335",
@@ -234,15 +234,31 @@
       ]
     },
     {
-      "name": "BeagleBone Black Debian 12 v6.16.x (Stable) VSCode",
-      "description": "Debian 12 (Bookworm) with no desktop environment for BeagleBone Black based on TI AM335x processor",
+      "name": "BeagleBone Black Debian 13 v6.12.x (LTS)",
+      "description": "Debian 13 (Trixie) with no desktop environment for BeagleBone Black based on TI AM335x processor",
       "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.11-base-vscode-v6.16-armhf-2025-08-07-4gb.img.xz",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13-base-v6.12-armhf-2025-08-08-4gb.img.xz",
       "extract_size": 3774873600,
-      "extract_sha256": "b1ae7a2483dffa6332e56e81721688825b61cf4240fffe58ae37ae562b548e00",
-      "image_download_size": 431314948,
-      "image_download_sha256": "9e06f9e08886216174de6bc9f3030112379f854a059b1f16fb05dbc18cad1088",
-      "release_date": "2025-08-07",
+      "extract_sha256": "08a88371d97b1ee24f56e396306e39a9be71476397d9562630e8faf6a3f68cda",
+      "image_download_size": 372632892,
+      "image_download_sha256": "dd53e8233ec23ab762da7887717eb564691a517c89eb0817b8f297aace1393e3",
+      "release_date": "2025-08-08",
+      "init_format": "sysconf",
+      "devices": [
+        "beagle-am335",
+        "recommended"
+      ]
+    },
+    {
+      "name": "BeagleBone Black Debian 13 v6.15.x (Stable)",
+      "description": "Debian 13 (Trixie) with no desktop environment for BeagleBone Black based on TI AM335x processor",
+      "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13-base-v6.15-armhf-2025-08-08-4gb.img.xz",
+      "extract_size": 3774873600,
+      "extract_sha256": "e3864c5e32b2bffb81b748899cd50ee38b3f5fa5993c4b24329e2c4bfc8e78f7",
+      "image_download_size": 374233328,
+      "image_download_sha256": "b7e7f3ffe7a0a9b66f326d4cf997e19ed9870ba58a3a7efe0cdd797f23a53b3b",
+      "release_date": "2025-08-08",
       "init_format": "sysconf",
       "devices": [
         "beagle-am335",

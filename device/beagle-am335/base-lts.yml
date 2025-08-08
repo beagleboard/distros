@@ -1,13 +1,13 @@
-- name: BeagleBone Black Debian 12 v6.12.x (LTS) VSCode
-  description: Debian 12 (Bookworm) with no desktop environment for BeagleBone Black
+- name: BeagleBone Black Debian 13 v6.12.x (LTS)
+  description: Debian 13 (Trixie) with no desktop environment for BeagleBone Black
     based on TI AM335x processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.11-base-vscode-v6.12-armhf-2025-08-07-4gb.img.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13-base-v6.12-armhf-2025-08-08-4gb.img.xz
   extract_size: 3774873600
-  extract_sha256: afd34ce0bbf88045ed023d4c0fc9e6d012827cfc19d477046d95874ca3f83913
-  image_download_size: 425905664
-  image_download_sha256: c16bc3b46593ff17cd747d3c2db1c0aefcae94c69574c255c8f57e14107a5294
-  release_date: '2025-08-07'
+  extract_sha256: 08a88371d97b1ee24f56e396306e39a9be71476397d9562630e8faf6a3f68cda
+  image_download_size: 372632892
+  image_download_sha256: dd53e8233ec23ab762da7887717eb564691a517c89eb0817b8f297aace1393e3
+  release_date: '2025-08-08'
   init_format: sysconf
   devices:
     - beagle-am335
