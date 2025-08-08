@@ -18,12 +18,28 @@ run_img () {
 		cat ./device/${device}/debian-13-iot-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+	if [ -f ./device/${device}/base-compat.yml ] ; then
+		cat ./device/${device}/base-compat.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 	if [ -f ./device/${device}/base-lts.yml ] ; then
 		cat ./device/${device}/base-lts.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 	if [ -f ./device/${device}/base-stable.yml ] ; then
 		cat ./device/${device}/base-stable.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/old-base-compat.yml ] ; then
+		cat ./device/${device}/old-base-compat.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/old-base-lts.yml ] ; then
+		cat ./device/${device}/old-base-lts.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/old-base-stable.yml ] ; then
+		cat ./device/${device}/old-base-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 }
