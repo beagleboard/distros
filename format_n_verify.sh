@@ -30,6 +30,18 @@ run_img () {
 		cat ./device/${device}/base-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+	if [ -f ./device/${device}/old-base-compat.yml ] ; then
+		cat ./device/${device}/old-base-compat.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/old-base-lts.yml ] ; then
+		cat ./device/${device}/old-base-lts.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/old-base-stable.yml ] ; then
+		cat ./device/${device}/old-base-stable.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 }
 
 run_ti_edgeai_img() {

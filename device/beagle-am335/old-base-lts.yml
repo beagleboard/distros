@@ -1,0 +1,14 @@
+- name: BeagleBone Black Debian 12 v6.12.x (LTS)
+  description: Debian 12 (Bookworm) with no desktop environment for BeagleBone Black
+    based on TI AM335x processor
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.11-base-v6.12-armhf-2025-08-08-4gb.img.xz
+  extract_size: 3774873600
+  extract_sha256: f66bd470c23e977dfaa7f49c55ca80a401fd0b7616e10b16f4130ab3e6f0878f
+  image_download_size: 357711764
+  image_download_sha256: cf2033bcacedcc93d5b3519acce1a19ab2daaa0d62e78ac24d313547ce3da90d
+  release_date: '2025-08-08'
+  init_format: sysconf
+  devices:
+    - beagle-am335
+    - recommended
