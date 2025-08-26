@@ -1,4 +1,4 @@
-- name: PocketBeagle 2 Debian 12 v6.12.x-ti Minimal (Recommended)
+- name: PocketBeagle 2 Debian 12 v6.12.x-ti Minimal (Stable)
   description: Debian 12 (Bookworm) with no desktop environment for PocketBeagle 2 based
     on TI AM62 processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png

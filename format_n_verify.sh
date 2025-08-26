@@ -14,10 +14,6 @@ run_img () {
 		cat ./device/${device}/iot-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-	if [ -f ./device/${device}/debian-13-iot-stable.yml ] ; then
-		cat ./device/${device}/debian-13-iot-stable.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
 	if [ -f ./device/${device}/base-compat.yml ] ; then
 		cat ./device/${device}/base-compat.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
@@ -28,6 +24,10 @@ run_img () {
 	fi
 	if [ -f ./device/${device}/base-stable.yml ] ; then
 		cat ./device/${device}/base-stable.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/old-iot-stable.yml ] ; then
+		cat ./device/${device}/old-iot-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 	if [ -f ./device/${device}/old-base-compat.yml ] ; then
