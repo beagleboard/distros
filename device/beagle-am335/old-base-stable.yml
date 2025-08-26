@@ -3,7 +3,7 @@
     based on TI AM335x processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.11-base-v6.15-armhf-2025-08-26-4gb.img.xz
-  bmap: https://rcn-ee.net/rootfs/debian-armhf-12-base-v6.15/2025-08-26/am335x-debian-12.11-base-v6.15-armhf-2025-08-26-4gb.bmap
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-12.11-base-v6.15-armhf-2025-08-26-4gb.bmap
   extract_size: 3774873600
   extract_sha256: d771773343fed01a4c8074b44d2f0f6dc6db744e57e800f2b965576f5098152f
   image_download_size: 357718012
