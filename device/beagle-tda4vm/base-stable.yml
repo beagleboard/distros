@@ -1,6 +1,5 @@
 - name: BeagleBone AI-64 Debian 13 v6.12.x-ti Minimal
-  description: Debian 13 (Trixie) with no desktop environment for BeagleBone AI-64
-    based on TI TDA4VM processor
+  description: Debian 13 (Trixie) with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-13-base-v6.12-arm64-2025-08-28-8gb.img.xz
   bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-debian-13-base-v6.12-arm64-2025-08-28-8gb.bmap
