@@ -1,13 +1,14 @@
-- name: BeaglePlay Debian 12 v6.12.x-ti Minimal
-  description: Debian 12 (Bookworm) with no desktop environment for BeaglePlay based
+- name: BeaglePlay Debian 13 v6.12.x-ti Minimal
+  description: Debian 13 (Trixie) with no desktop environment for BeaglePlay based
     on TI AM62 processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-12.11-minimal-v6.12-arm64-2025-06-30-8gb.img.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13-base-v6.12-arm64-2025-08-28-8gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13-base-v6.12-arm64-2025-08-28-8gb.bmap
   extract_size: 7818182656
-  extract_sha256: 87a06f88b25ea59dc32f46db4c96a796a7e8bf00ec65a04a48754803035dcb25
-  image_download_size: 625325360
-  image_download_sha256: a866787ad6eb56774e3d1f42968f2025f60ad0cb133650071c5b265ac3c6adcb
-  release_date: '2025-06-30'
+  extract_sha256: db3dd8b9fba7996534c5ad2690285141da0cb628fc5bd46dc453120cfc7b21c6
+  image_download_size: 521685612
+  image_download_sha256: e9d8c612745f5a7ea10d9ad1511693dcce2d6d88e9da65218cd2fe0e03f2ca19
+  release_date: '2025-08-28'
   init_format: sysconf
   devices:
     - beagle-am62
