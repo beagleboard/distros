@@ -1,6 +1,5 @@
 - name: BeagleBone Black Debian 13 v5.10.x-ti (Old Compatible)
-  description: Debian 13 (Trixie) with no desktop environment for BeagleBone Black
-    based on TI AM335x processor
+  description: Debian 13 (Trixie) with no desktop environment for BeagleBone Black based on TI AM335x processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13-base-v5.10-ti-armhf-2025-08-26-4gb.img.xz
   bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-13-base-v5.10-ti-armhf-2025-08-26-4gb.bmap
