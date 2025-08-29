@@ -1,6 +1,5 @@
 - name: BeagleV-Fire Debian 13 v6.6.x
-  description: Debian Trixie with no desktop environment for BeagleV-Fire
-    based on Microchip Polarfire MPFS025T SoC FPGA
+  description: Debian Trixie with no desktop environment for BeagleV-Fire based on Microchip Polarfire MPFS025T SoC FPGA
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/beaglev-fire-debian-13-iot-v6.6-riscv64-2025-07-21-4gb.img.xz
   extract_size: 2441695232
@@ -14,8 +13,7 @@
     - recommended
 
 - name: BeagleV-Fire Ubuntu 24.04 v6.6.x
-  description: Ubuntu 24.04 with no desktop environment for BeagleV-Fire
-    based on Microchip Polarfire MPFS025T SoC FPGA
+  description: Ubuntu 24.04 with no desktop environment for BeagleV-Fire based on Microchip Polarfire MPFS025T SoC FPGA
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/ubuntu.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/beaglev-fire-ubuntu-24.04-iot-v6.6-riscv64-2025-07-21-4gb.img.xz
   extract_size: 4119416832

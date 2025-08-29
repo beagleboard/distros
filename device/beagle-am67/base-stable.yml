@@ -1,6 +1,5 @@
 - name: BeagleY-AI Debian 12 v6.1.x-ti Minimal
-  description: Debian 12 (Bookworm) with no desktop environment for BeagleY-AI based
-    on TI AM67A (J722S) processor
+  description: Debian 12 (Bookworm) with no desktop environment for BeagleY-AI based on TI AM67A (J722S) processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-12.11-minimal-v6.1-arm64-2025-06-30-8gb.img.xz
   extract_size: 7818182656
