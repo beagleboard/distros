@@ -277,7 +277,7 @@
       ]
     },
     {
-      "name": "BeagleBone Black Debian 13 v6.15.x (Stable)",
+      "name": "BeagleBone Black Debian 13 v6.16.x (Stable)",
       "description": "Debian 13 (Trixie) with no desktop environment for BeagleBone Black based on TI AM335x processor",
       "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
       "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13-base-v6.16-armhf-2025-09-05-4gb.img.xz",
