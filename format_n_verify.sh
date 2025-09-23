@@ -26,6 +26,10 @@ run_img () {
 		cat ./device/${device}/base-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+	if [ -f ./device/${device}/ti-edgeai.yml ] ; then
+		cat ./device/${device}/ti-edgeai.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 	if [ -f ./device/${device}/old-iot-stable.yml ] ; then
 		cat ./device/${device}/old-iot-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
@@ -40,13 +44,6 @@ run_img () {
 	fi
 	if [ -f ./device/${device}/old-base-stable.yml ] ; then
 		cat ./device/${device}/old-base-stable.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-}
-
-run_ti_edgeai_img() {
-	if [ -f ./device/${device}/ti-edgeai.yml ] ; then
-		cat ./device/${device}/ti-edgeai.yml | sed 's/^/    /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 }
@@ -115,7 +112,6 @@ echo "    icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-
 echo "    subitems:" >> ./id.yml
 
 device="beagle-am67" ; run_test_img
-device="beagle-am67" ; run_ti_edgeai_img
 
 if [ -f /usr/bin/yq ] ; then
 	cat ./id.yml | yq > os_list.json
