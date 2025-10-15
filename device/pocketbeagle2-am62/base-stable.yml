@@ -1,15 +1,14 @@
 - name: PocketBeagle 2 Debian 13 v6.12.x-ti Minimal (Recommended)
   description: Debian 13 (Trixie) with no desktop environment for PocketBeagle 2 based on TI AM62 processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-13.1-base-v6.12-arm64-2025-10-07-8gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/pocketbeagle2-debian-13.1-base-v6.12-arm64-2025-10-07-8gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-13.1-base-v6.12-arm64-2025-10-15-8gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/pocketbeagle2-debian-13.1-base-v6.12-arm64-2025-10-15-8gb.bmap
   extract_size: 7818182656
-  extract_sha256: ec578a60d08e74db919e13f3815155172b2abea7e37aafb9756c8fc31ff5959e
-  image_download_size: 517359844
-  image_download_sha256: ae42151ce5face59cd54a6b5a0c244da35eb9f3d23c790ba7ecdafed1575ccb5
-  release_date: '2025-10-07'
+  extract_sha256: 51120a4c97563cf3a7ec9542a1edc6ba855180f6ed9ee32c1c38494d5294769b
+  image_download_size: 519790948
+  image_download_sha256: 8f7ae485359f10444b6466394210303c13b57c1a636c1f1fe4b46f2e9b956ec8
+  release_date: '2025-10-15'
   init_format: sysconf
-
   devices:
     - pocketbeagle2-am62
     - recommended
