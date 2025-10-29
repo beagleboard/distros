@@ -1,4 +1,4 @@
-- name: BeagleBone Black Debian 12 v6.16.x (Stable)
+- name: BeagleBone Black Debian 12 v6.17.x (Stable)
   description: Debian 12 (Bookworm) with no desktop environment for BeagleBone Black based on TI AM335x processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
   url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.12-base-v6.17-armhf-2025-10-29-4gb.img.xz
