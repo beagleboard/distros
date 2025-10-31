@@ -1,13 +1,13 @@
 - name: PocketBeagle 2 Debian 12 v6.12.x-ti IoT (Stable)
   description: Debian 12 (Bookworm) with no desktop environment for PocketBeagle 2 based on TI AM62 processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-12.12-iot-v6.12-arm64-2025-10-15-8gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/pocketbeagle2-debian-12.12-iot-v6.12-arm64-2025-10-15-8gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-12.12-iot-v6.12-arm64-2025-10-30-8gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/pocketbeagle2-debian-12.12-iot-v6.12-arm64-2025-10-30-8gb.bmap
   extract_size: 7818182656
-  extract_sha256: 69e1732e26eff3188b3836b6b421c2b574ec72294ebe342bed5e48053e2bbd9d
-  image_download_size: 813529560
-  image_download_sha256: fc6de4429e9f5e8d7506c91ac31643c68c0731a49ef32f4d8442057bf807c51f
-  release_date: '2025-10-15'
+  extract_sha256: 60a45e504046a570c9084125fc124709e22adbec36699b24391c66b67baa9d25
+  image_download_size: 810810800
+  image_download_sha256: 1e376164f3b1926e5b5d1b89b3291fa8dcc5fb54044f30b45a0a64a5f8c7a588
+  release_date: '2025-10-30'
   init_format: sysconf
   devices:
     - pocketbeagle2-am62
