@@ -68,10 +68,6 @@ run_test_img () {
 		cat ./device/${device}/test-xfce-v6.12.x.yml | sed 's/^/    /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-	if [ -f ./device/${device}/test-xfce-v6.6.x.yml ] ; then
-		cat ./device/${device}/test-xfce-v6.6.x.yml | sed 's/^/    /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
 }
 
 if [ ! -f /usr/bin/jq ] ; then
