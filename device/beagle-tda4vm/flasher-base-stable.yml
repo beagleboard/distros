@@ -1,13 +1,13 @@
 - name: BeagleBone AI-64 Debian 13 v6.12.x-ti eMMC Minimal Flasher
   description: Debian 13 (Trixie) with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-13-base-v6.12-arm64-2025-08-28-8gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-emmc-flasher-debian-13-base-v6.12-arm64-2025-08-28-8gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-13.2-base-v6.12-arm64-2025-11-25-8gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-emmc-flasher-debian-13.2-base-v6.12-arm64-2025-11-25-8gb.bmap
   extract_size: 7818182656
-  extract_sha256: 6db8bbb59fe35816c79c9c26aa6eff266cd2311a479efcc434fc0382b52b6831
-  image_download_size: 516979552
-  image_download_sha256: 5e39cd00dddbb9a037c7f01ed058cd8dffef7c62e28ec34e650ee6608787b753
-  release_date: '2025-08-28'
+  extract_sha256: 97b7a4aa537556dc492c484c570c6873a4bf595b3c043f073858186ec9ea43a6
+  image_download_size: 547751152
+  image_download_sha256: 995050229151633a9023d99fa95d2c8c821ce71255d4662ffddcc019e79ecccc
+  release_date: '2025-11-25'
   init_format: sysconf
   devices:
     - beagle-tda4vm
