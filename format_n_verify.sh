@@ -34,10 +34,6 @@ run_img () {
 		cat ./device/${device}/ti-edgeai.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-	if [ -f ./device/${device}/old-iot-stable.yml ] ; then
-		cat ./device/${device}/old-iot-stable.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
 	if [ -f ./device/${device}/old-base-compat.yml ] ; then
 		cat ./device/${device}/old-base-compat.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
