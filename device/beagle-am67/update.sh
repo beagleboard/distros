@@ -1,41 +1,49 @@
 #!/bin/bash
 
-server="https://rcn-ee.net/rootfs/"
+server_base_dir="https://rcn-ee.net/rootfs"
 
 device="beagley-ai"
 arch="arm64"
 size="12gb"
 
 date="2025-11-25"
-r_stable="v6.1-ti"
-r_image="13-xfce-v6.1-ti"
+
+debian_stable="13.2"
 
 grab_image () {
-	wget -c --directory-prefix=/tmp/ ${server}debian-${arch}-${r_image}/${date}/${device}-debian-${image}-${grab}-${arch}-${date}-${size}.bmap
-	if [ ! -f /tmp/${device}-debian-${image}-${grab}-${arch}-${date}-${size}.bmap ] ; then
-		echo "Failure to get ${server}debian-${arch}-${r_image}/${date}/${device}-debian-${image}-${grab}-${arch}-${date}-${size}.bmap"
+	wget -c --directory-prefix=/tmp/ ${server_base_dir}/${server_dir}/${date}/${file_prefix}.bmap
+	if [ ! -f /tmp/${file_prefix}.bmap ] ; then
+		echo "Failure to get ${server_base_dir}/${server_dir}/${date}/${file_prefix}.bmap"
 		exit 2
 	fi
-	mv -v /tmp/${device}-debian-${image}-${grab}-${arch}-${date}-${size}.bmap ../../bmap-temp/
+	mv -v /tmp/${file_prefix}.bmap ../../bmap-temp/
 
-	wget -c --directory-prefix=/tmp/ ${server}debian-${arch}-${r_image}/${date}/${device}-debian-${image}-${grab}-${arch}-${date}-${size}.img.xz.yml.txt
-	if [ ! -f /tmp/${device}-debian-${image}-${grab}-${arch}-${date}-${size}.img.xz.yml.txt ] ; then
-		echo "Failure to get ${server}debian-${arch}-${r_image}/${date}/${device}-debian-${image}-${grab}-${arch}-${date}-${size}.img.xz.yml.txt"
+	wget -c --directory-prefix=/tmp/ ${server_base_dir}/${server_dir}/${date}/${file_prefix}.img.xz.yml.txt
+	if [ ! -f /tmp/${file_prefix}.img.xz.yml.txt ] ; then
+		echo "Failure to get ${server_base_dir}/${server_dir}/${date}/${file_prefix}.img.xz.yml.txt"
 		exit 2
 	fi
-	mv -v /tmp/${device}-debian-${image}-${grab}-${arch}-${date}-${size}.img.xz.yml.txt ${ymlfile}.yml
+	mv -v /tmp/${file_prefix}.img.xz.yml.txt ${ymlfile}.yml
 }
 
-image="13.2-xfce"
-ymlfile="xfce-stable" grab="v6.1" ; grab_image
+size="12gb"
+kernel_version="v6.1"
+server_dir="debian-${arch}-13-xfce-${kernel_version}-ti"
+file_prefix="${device}-debian-${debian_stable}-xfce-${kernel_version}-${arch}-${date}-${size}"
+
+ymlfile="xfce-stable" ; grab_image
 
 size="8gb"
-r_image="13-base-v6.1-ti"
-image="13.2-base"
+kernel_version="v6.1"
+server_dir="debian-${arch}-13-base-${kernel_version}-ti"
+file_prefix="${device}-debian-${debian_stable}-base-${kernel_version}-${arch}-${date}-${size}"
 
-ymlfile="base-stable" grab="v6.1" ; grab_image
+ymlfile="base-stable" ; grab_image
 
 size="12gb"
-r_image="13-xfce-v6.12-ti"
-image="13.2-xfce"
-ymlfile="test-xfce-v6.12.x" grab="v6.12" ; grab_image
+kernel_version="v6.12"
+server_dir="debian-${arch}-13-xfce-${kernel_version}-ti"
+file_prefix="${device}-debian-${debian_stable}-xfce-${kernel_version}-${arch}-${date}-${size}"
+
+ymlfile="test-xfce-v6.12.x" ; grab_image
+#
