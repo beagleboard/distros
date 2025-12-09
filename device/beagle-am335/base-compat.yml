@@ -1,13 +1,13 @@
 - name: BeagleBone Black Debian 13 v5.10.x-ti (Old Compatible)
   description: Debian 13 (Trixie) with no desktop environment for BeagleBone Black based on TI AM335x processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13.2-base-v5.10-ti-armhf-2025-11-18-4gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-13.2-base-v5.10-ti-armhf-2025-11-18-4gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13.2-base-v5.10-ti-armhf-2025-12-08-4gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-13.2-base-v5.10-ti-armhf-2025-12-08-4gb.bmap
   extract_size: 3774873600
-  extract_sha256: d3110da12ef5066aa5965834e146fce048740a27c55ce3c686cb3e4a25810e87
-  image_download_size: 364706452
-  image_download_sha256: b4fe310251e43dfae4785281b0ccfce466e4ac533712e4c00d8c770330e2abd0
-  release_date: '2025-11-18'
+  extract_sha256: c7de90aa12b7683eb32ad3acb28e023ab0c5ecdcad753fd46d5765c2b057ce26
+  image_download_size: 363606224
+  image_download_sha256: deae18a7508342c5f39de95be0b0f4166dad132723551d055befaa5066ce416e
+  release_date: '2025-12-08'
   init_format: sysconf
   devices:
     - beagle-am335
