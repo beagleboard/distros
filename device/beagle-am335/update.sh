@@ -6,7 +6,7 @@ device="am335x"
 arch="armhf"
 size="4gb"
 
-date="2025-11-18"
+date="2025-12-08"
 
 debian_stable="13.2"
 debian_old="12.12"
@@ -45,6 +45,6 @@ ymlfile="base-compat" ; grab_image
 kernel_version="v6.12"
 ymlfile="base-lts" ; grab_image
 
-kernel_version="v6.17"
+kernel_version="v6.18"
 ymlfile="base-stable" ; grab_image
 #
