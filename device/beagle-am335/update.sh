@@ -1,15 +1,11 @@
 #!/bin/bash
 
+. version.sh
+
 server_base_dir="https://rcn-ee.net/rootfs"
 
-device="am335x"
 arch="armhf"
 size="4gb"
-
-date="2025-12-08"
-
-debian_stable="13.2"
-debian_old="12.12"
 
 grab_image () {
 	server_dir="debian-${arch}-13-base-${kernel_version}"
@@ -47,4 +43,5 @@ ymlfile="base-lts" ; grab_image
 
 kernel_version="v6.18"
 ymlfile="base-stable" ; grab_image
+
 #
