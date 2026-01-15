@@ -124,6 +124,23 @@
       ]
     },
     {
+      "name": "BeaglePlay Debian 13 v6.18.x-k3 XFCE (LTS-Dec-2027) (Vulkan/mesa 25.3)",
+      "description": "Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
+      "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.3-xfce-v6.18-k3-arm64-2026-01-15-12gb.img.xz",
+      "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.3-xfce-v6.18-k3-arm64-2026-01-15-12gb.bmap",
+      "extract_size": 12884901888,
+      "extract_sha256": "86da3c9f13e176c90e8f145a2d971919ae3d42b70ec9ab3c980c8170eff82f9d",
+      "image_download_size": 1173412144,
+      "image_download_sha256": "17fe25eac887d615f1ee52799141179891f6266664711d12eb19c6d007997407",
+      "release_date": "2026-01-15",
+      "init_format": "sysconf",
+      "devices": [
+        "beagle-am62",
+        "recommended"
+      ]
+    },
+    {
       "name": "BeaglePlay Debian 13 v6.12.x-ti XFCE (Recommended)",
       "description": "Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
       "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
