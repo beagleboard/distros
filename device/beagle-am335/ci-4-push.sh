@@ -1,5 +1,5 @@
 #!/bin/bash
 
-. version.sh
+. ci-version.sh
 
 git push origin ${device}-${date}

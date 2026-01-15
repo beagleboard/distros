@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. version.sh
+. ci-version.sh
 cd ../../
 /bin/bash ./format_n_verify.sh
 cd -

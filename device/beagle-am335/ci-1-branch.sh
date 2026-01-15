@@ -1,5 +1,5 @@
 #!/bin/bash
 
-. version.sh
+. ci-version.sh
 
 git switch -c ${device}-${date}
