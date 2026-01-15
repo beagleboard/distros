@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. version.sh
+. ci-version.sh
 
 server_base_dir="https://rcn-ee.net/rootfs"
 
