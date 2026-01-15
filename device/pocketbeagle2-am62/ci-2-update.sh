@@ -1,14 +1,11 @@
 #!/bin/bash
 
+. ci-version.sh
+
 server_base_dir="https://rcn-ee.net/rootfs"
 
-device="pocketbeagle2"
 arch="arm64"
 size="8gb"
-
-date="2025-12-02"
-
-debian_stable="13.2"
 
 grab_image () {
 	wget -c --directory-prefix=/tmp/ ${server_base_dir}/${server_dir}/${date}/${file_prefix}.bmap
@@ -43,4 +40,10 @@ server_dir="debian-${arch}-13-iot-${kernel_version}-ti"
 file_prefix="${device}-workshop-debian-${debian_stable}-iot-${kernel_version}-${arch}-${date}-${size}"
 
 ymlfile="workshop-stable" ; grab_image
+
+kernel_version="v6.18-k3"
+server_dir="debian-${arch}-13-iot-${kernel_version}"
+file_prefix="${device}-debian-${debian_stable}-iot-${kernel_version}-${arch}-${date}-${size}"
+
+ymlfile="iot-lts" ; grab_image
 #
