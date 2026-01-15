@@ -1,13 +1,13 @@
 - name: BeaglePlay Debian 13 v6.12.x-ti eMMC Minimal Flasher
   description: Debian 13 (Trixie) with no desktop environment for BeaglePlay based on TI AM62 processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-13.2-base-v6.12-arm64-2025-12-02-8gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-emmc-flasher-debian-13.2-base-v6.12-arm64-2025-12-02-8gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-13.3-base-v6.12-arm64-2026-01-15-8gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-emmc-flasher-debian-13.3-base-v6.12-arm64-2026-01-15-8gb.bmap
   extract_size: 7818182656
-  extract_sha256: 82b5e8a204974e35a552b3426fdbe1f449ec231f72e2db529250419ab79b7e5a
-  image_download_size: 548899760
-  image_download_sha256: 90a5acd1b647492af2bee89620ab85f7d66f1437117d370854ceabb73d4a7c31
-  release_date: '2025-12-02'
+  extract_sha256: be25432b67e7b48ec8846ba6eaee97fc435895bd824afc6f098cfa1ffa45d919
+  image_download_size: 559464868
+  image_download_sha256: 059a5262da1f39cfee857a4adee0e76f98d12d279092aefba520cd839507a94b
+  release_date: '2026-01-15'
   init_format: sysconf
   devices:
     - beagle-am62
