@@ -1,13 +1,13 @@
 - name: BeagleBone AI-64 Debian 13 v6.12.x-ti Minimal
   description: Debian 13 (Trixie) with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-13.2-base-v6.12-arm64-2025-11-25-8gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-debian-13.2-base-v6.12-arm64-2025-11-25-8gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-13.3-base-v6.12-arm64-2026-01-20-8gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-debian-13.3-base-v6.12-arm64-2026-01-20-8gb.bmap
   extract_size: 7818182656
-  extract_sha256: adaea67264c5488fa372cabeb257f02529b862fad798b384658e6dda34f5f184
-  image_download_size: 552926824
-  image_download_sha256: 901f482322d32688c541835704ea3f7b05a1a054828200c60911e5456fa48928
-  release_date: '2025-11-25'
+  extract_sha256: 338945a8693aec7aa96de4a34099e51a0cd13b1e43a6b6d0366660f74fa16b5d
+  image_download_size: 557424096
+  image_download_sha256: 8fb274cd705173148281858e906b523e470b6f8494b6c47cb820f6e3e1b730b7
+  release_date: '2026-01-20'
   init_format: sysconf
   devices:
     - beagle-tda4vm
