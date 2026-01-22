@@ -39,9 +39,9 @@ kernel_version="v5.10-ti"
 ymlfile="base-compat" ; grab_image
 
 kernel_version="v6.12"
-ymlfile="base-lts" ; grab_image
+ymlfile="base-lts-612" ; grab_image
 
 kernel_version="v6.18"
-ymlfile="base-stable" ; grab_image
+ymlfile="base-stable-618" ; grab_image
 
 #

@@ -30,6 +30,14 @@ run_img () {
 		cat ./device/${device}/base-compat.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+	if [ -f ./device/${device}/base-lts-618.yml ] ; then
+		cat ./device/${device}/base-lts-618.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/base-lts-612.yml ] ; then
+		cat ./device/${device}/base-lts-612.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 	if [ -f ./device/${device}/base-lts.yml ] ; then
 		cat ./device/${device}/base-lts.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
@@ -44,6 +52,14 @@ run_img () {
 	fi
 	if [ -f ./device/${device}/old-base-compat.yml ] ; then
 		cat ./device/${device}/old-base-compat.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/old-base-lts-618.yml ] ; then
+		cat ./device/${device}/old-base-lts-618.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/old-base-lts-612.yml ] ; then
+		cat ./device/${device}/old-base-lts-612.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 	if [ -f ./device/${device}/old-base-lts.yml ] ; then
