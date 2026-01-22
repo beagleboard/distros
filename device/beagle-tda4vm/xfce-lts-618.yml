@@ -1,0 +1,14 @@
+- name: BeagleBone AI-64 Debian 13 v6.18.x-k3 XFCE (LTS-Dec-2027)
+  description: Debian 13 (Trixie) with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-13.3-xfce-v6.18-k3-arm64-2026-01-22-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-debian-13.3-xfce-v6.18-k3-arm64-2026-01-22-12gb.bmap
+  extract_size: 12884901888
+  extract_sha256: 14d8f9f6068742d128784745a6df5698d7721d8077ea377d985f2837915fe700
+  image_download_size: 1171801304
+  image_download_sha256: d261e58af6ba81603935c37f5bceec1871a9c509a6351d90863fd13fe2f758d9
+  release_date: '2026-01-22'
+  init_format: sysconf
+  devices:
+    - beagle-tda4vm
+    - recommended
