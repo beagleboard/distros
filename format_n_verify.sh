@@ -6,6 +6,10 @@ run_id () {
 }
 
 run_img () {
+	if [ -f ./device/${device}/xfce-lts-618.yml ] ; then
+		cat ./device/${device}/xfce-lts-618.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 	if [ -f ./device/${device}/xfce-lts.yml ] ; then
 		cat ./device/${device}/xfce-lts.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
