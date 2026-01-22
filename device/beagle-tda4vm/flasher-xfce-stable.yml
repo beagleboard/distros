@@ -1,13 +1,13 @@
 - name: BeagleBone AI-64 Debian 13 v6.12.x-ti eMMC XFCE Flasher (Recommended)
   description: Debian 13 (Trixie) with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-13.3-xfce-v6.12-arm64-2026-01-20-12gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-emmc-flasher-debian-13.3-xfce-v6.12-arm64-2026-01-20-12gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-emmc-flasher-debian-13.3-xfce-v6.12-arm64-2026-01-22-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-emmc-flasher-debian-13.3-xfce-v6.12-arm64-2026-01-22-12gb.bmap
   extract_size: 12884901888
-  extract_sha256: e5b8a38370cf6218aa745ca3a2920aca20c5094d5d348782dcea16aca3031f4e
-  image_download_size: 1174170360
-  image_download_sha256: 90363f0ce55502b69f5d23aa71b38429e0f80a213c9af074e51cf7ea9fe0d72d
-  release_date: '2026-01-20'
+  extract_sha256: e619845937404e50d746bd05e17e3ea596a555fe018a5c0ef274df03cdfc60aa
+  image_download_size: 1176098172
+  image_download_sha256: 59b5928ad2d3c487a6a43c68adb9c7c301d4ed9a0972c085cb07c47521ce203a
+  release_date: '2026-01-22'
   init_format: sysconf
   devices:
     - beagle-tda4vm
