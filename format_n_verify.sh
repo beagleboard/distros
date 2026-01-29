@@ -34,6 +34,10 @@ run_img () {
 		cat ./device/${device}/workshop-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+	if [ -f ./device/${device}/workshop-lts-618.yml ] ; then
+		cat ./device/${device}/workshop-lts-618.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 	if [ -f ./device/${device}/base-compat.yml ] ; then
 		cat ./device/${device}/base-compat.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
