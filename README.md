@@ -1,3 +1,11 @@
+# Pull Requests:
+
+https://github.com/beagleboard/distros/
+
+or
+
+https://openbeagle.org/beagleboard/distros
+
 # web url
 
 https://beagleboard.beagleboard.io/distros/
