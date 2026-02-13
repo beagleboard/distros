@@ -28,20 +28,20 @@ kernel_version="v6.12"
 server_dir="debian-${arch}-13-xfce-${kernel_version}-ti"
 file_prefix="${device}-debian-${debian_stable}-xfce-${kernel_version}-${arch}-${date}-${size}"
 
-ymlfile="xfce-stable" ; grab_image
+ymlfile="xfce-ti-stable" ; grab_image
 
 file_prefix="${device}-emmc-flasher-debian-${debian_stable}-xfce-${kernel_version}-${arch}-${date}-${size}"
-ymlfile="flasher-xfce-stable" ; grab_image
+ymlfile="flasher-xfce-ti-stable" ; grab_image
 
 size="8gb"
 kernel_version="v6.12"
 server_dir="debian-${arch}-13-base-${kernel_version}-ti"
 file_prefix="${device}-debian-${debian_stable}-base-${kernel_version}-${arch}-${date}-${size}"
 
-ymlfile="base-stable" ; grab_image
+ymlfile="base-ti-stable" ; grab_image
 
 file_prefix="${device}-emmc-flasher-debian-${debian_stable}-base-${kernel_version}-${arch}-${date}-${size}"
-ymlfile="flasher-base-stable" ; grab_image
+ymlfile="flasher-base-ti-stable" ; grab_image
 
 size="12gb"
 kernel_version="v6.18-k3"
@@ -49,5 +49,12 @@ server_dir="debian-${arch}-13-xfce-${kernel_version}"
 file_prefix="${device}-debian-${debian_stable}-xfce-${kernel_version}-${arch}-${date}-${size}"
 
 ymlfile="xfce-lts-618" ; grab_image
+
+size="12gb"
+kernel_version="v6.19-k3"
+server_dir="debian-${arch}-13-xfce-${kernel_version}"
+file_prefix="${device}-debian-${debian_stable}-xfce-${kernel_version}-${arch}-${date}-${size}"
+
+ymlfile="xfce-stable" ; grab_image
 
 #
