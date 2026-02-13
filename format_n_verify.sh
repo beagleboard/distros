@@ -50,10 +50,6 @@ run_img () {
 		cat ./device/${device}/base-lts-612.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-	if [ -f ./device/${device}/base-lts.yml ] ; then
-		cat ./device/${device}/base-lts.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
 	if [ -f ./device/${device}/base-stable.yml ] ; then
 		cat ./device/${device}/base-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
