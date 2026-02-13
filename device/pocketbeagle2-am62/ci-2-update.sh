@@ -28,20 +28,20 @@ kernel_version="v6.12"
 server_dir="debian-${arch}-13-base-${kernel_version}-ti"
 file_prefix="${device}-debian-${debian_stable}-base-${kernel_version}-${arch}-${date}-${size}"
 
-ymlfile="base-stable" ; grab_image
+ymlfile="base-ti-stable" ; grab_image
 
 kernel_version="v6.12"
 server_dir="debian-${arch}-13-iot-${kernel_version}-ti"
 file_prefix="${device}-debian-${debian_stable}-iot-${kernel_version}-${arch}-${date}-${size}"
 
-ymlfile="iot-stable" ; grab_image
+ymlfile="iot-ti-stable" ; grab_image
 
 size="8gb"
 kernel_version="v6.12"
 server_dir="debian-${arch}-13-iot-${kernel_version}-ti"
 file_prefix="${device}-workshop-debian-${debian_stable}-iot-${kernel_version}-${arch}-${date}-${size}"
 
-ymlfile="workshop-stable" ; grab_image
+ymlfile="workshop-ti-stable" ; grab_image
 
 size="8gb"
 kernel_version="v6.18-k3"
@@ -56,4 +56,11 @@ server_dir="debian-${arch}-13-iot-${kernel_version}"
 file_prefix="${device}-workshop-debian-${debian_stable}-iot-${kernel_version}-${arch}-${date}-${size}"
 
 ymlfile="workshop-lts-618" ; grab_image
+
+size="8gb"
+kernel_version="v6.19-k3"
+server_dir="debian-${arch}-13-iot-${kernel_version}"
+file_prefix="${device}-debian-${debian_stable}-iot-${kernel_version}-${arch}-${date}-${size}"
+
+ymlfile="iot-stable" ; grab_image
 #

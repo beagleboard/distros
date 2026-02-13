@@ -1,13 +1,13 @@
-- name: PocketBeagle 2 Debian 13 v6.12.x-ti IoT (Stable)
+- name: PocketBeagle 2 Debian 13 v6.19.x-k3 IoT (Stable v6.19.x)
   description: Debian 13 (Trixie) with no desktop environment for PocketBeagle 2 based on TI AM62 processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-13.3-iot-v6.12-arm64-2026-01-30-8gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/pocketbeagle2-debian-13.3-iot-v6.12-arm64-2026-01-30-8gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-debian-13.3-iot-v6.19-k3-arm64-2026-02-12-8gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/pocketbeagle2-debian-13.3-iot-v6.19-k3-arm64-2026-02-12-8gb.bmap
   extract_size: 7818182656
-  extract_sha256: 24a01d03f35b5ea4130d94c50852383d0d3aac8f1b15e13eaf1f5a02b1153a12
-  image_download_size: 896357044
-  image_download_sha256: 475983731679ccb85781ab961ca8fb37f3700533f228110a5d40273cc9ca88d8
-  release_date: '2026-01-30'
+  extract_sha256: 68918e141318aa6c1935e6675f287313f31ff602e785187556a86030c7e70323
+  image_download_size: 941943124
+  image_download_sha256: b2346a2cb0c3bf7477241dfe03f4d56fd80c18a18552d44e16e863c8b1c3d85b
+  release_date: '2026-02-12'
   init_format: sysconf
   devices:
     - pocketbeagle2-am62
