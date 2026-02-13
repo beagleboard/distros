@@ -18,6 +18,10 @@ run_img () {
 		cat ./device/${device}/xfce-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+	if [ -f ./device/${device}/xfce-ti-stable.yml ] ; then
+		cat ./device/${device}/xfce-ti-stable.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 	if [ -f ./device/${device}/iot-lts-618.yml ] ; then
 		cat ./device/${device}/iot-lts-618.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
@@ -48,6 +52,10 @@ run_img () {
 	fi
 	if [ -f ./device/${device}/base-lts-612.yml ] ; then
 		cat ./device/${device}/base-lts-612.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/base-ti-stable.yml ] ; then
+		cat ./device/${device}/base-ti-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 	if [ -f ./device/${device}/base-stable.yml ] ; then
@@ -85,8 +93,16 @@ run_flasher_img () {
 		cat ./device/${device}/flasher-xfce-stable.yml | sed 's/^/    /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+	if [ -f ./device/${device}/flasher-xfce-ti-stable.yml ] ; then
+		cat ./device/${device}/flasher-xfce-ti-stable.yml | sed 's/^/    /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 	if [ -f ./device/${device}/flasher-base-stable.yml ] ; then
 		cat ./device/${device}/flasher-base-stable.yml | sed 's/^/    /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/flasher-base-ti-stable.yml ] ; then
+		cat ./device/${device}/flasher-base-ti-stable.yml | sed 's/^/    /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 }

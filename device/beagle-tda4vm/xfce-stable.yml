@@ -1,13 +1,13 @@
-- name: BeagleBone AI-64 Debian 13 v6.12.x-ti XFCE (Recommended)
+- name: BeagleBone AI-64 Debian 13 v6.19.x-k3 XFCE (Stable v6.19.x)
   description: Debian 13 (Trixie) with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-13.3-xfce-v6.12-arm64-2026-01-22-12gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-debian-13.3-xfce-v6.12-arm64-2026-01-22-12gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-13.3-xfce-v6.19-k3-arm64-2026-02-12-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-debian-13.3-xfce-v6.19-k3-arm64-2026-02-12-12gb.bmap
   extract_size: 12884901888
-  extract_sha256: 76b2a3c465566b19fd9a0d8e76ee66f464d5b77e7f52eae417f2a07a08fc033c
-  image_download_size: 1173964748
-  image_download_sha256: bf608f41014796e4498cc38508fa2d9158cb31cc23e9b726bbb37b3ddd1acc1b
-  release_date: '2026-01-22'
+  extract_sha256: fe8efaf1ae4de8a35a0e52aee576f757b911efb69a8d4f6e221e4863e085c8fd
+  image_download_size: 1172260168
+  image_download_sha256: b7343933a978915cb8b09b2c03c8d8f550be87c19e6ca66aab84c7508e99874c
+  release_date: '2026-02-12'
   init_format: sysconf
   devices:
     - beagle-tda4vm
