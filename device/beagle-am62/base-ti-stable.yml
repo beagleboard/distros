@@ -1,0 +1,14 @@
+- name: BeaglePlay Debian 13 v6.12.x-ti Minimal
+  description: Debian 13 (Trixie) with no desktop environment for BeaglePlay based on TI AM62 processor
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.3-base-v6.12-arm64-2026-02-12-8gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.3-base-v6.12-arm64-2026-02-12-8gb.bmap
+  extract_size: 7818182656
+  extract_sha256: c4d96e03081394b170dceeb826940cb8a047f9fb5a1d3a80fcfa0db685e104ce
+  image_download_size: 556856676
+  image_download_sha256: d8e16a546a225136b7bbf0ee2dafae517984ebe6c3b4d7a09e5f2440e57948f1
+  release_date: '2026-02-12'
+  init_format: sysconf
+  devices:
+    - beagle-am62
+    - recommended

@@ -1,13 +1,13 @@
-- name: BeaglePlay Debian 13 v6.12.x-ti XFCE (Recommended)
+- name: BeaglePlay Debian 13 v6.19.x-k3 XFCE (Stable v6.19.x) (Vulkan/Mesa 26.0.x)
   description: Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.3-xfce-v6.12-arm64-2026-01-22-12gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.3-xfce-v6.12-arm64-2026-01-22-12gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.3-xfce-v6.19-k3-arm64-2026-02-12-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.3-xfce-v6.19-k3-arm64-2026-02-12-12gb.bmap
   extract_size: 12884901888
-  extract_sha256: a537e8e9011c8cc25c571b537146f0bb9b9e8491b5b96737fe20a70c7a0244c4
-  image_download_size: 1170872656
-  image_download_sha256: 8031388c2eab90984f4da8ea66294fbaec0276cdb42fefa9840ffd5726528e59
-  release_date: '2026-01-22'
+  extract_sha256: 11793e9b98a0a5cfc262ad1d21c393965bd6f2a020939b3ead4b2b61b95828c6
+  image_download_size: 1177509336
+  image_download_sha256: 9632f59faf0c1bf5b8742b8d05038b2361e7724a6289db366636ff03aae41838
+  release_date: '2026-02-12'
   init_format: sysconf
   devices:
     - beagle-am62
