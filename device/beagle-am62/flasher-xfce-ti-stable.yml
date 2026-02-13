@@ -1,0 +1,14 @@
+- name: BeaglePlay Debian 13 v6.12.x-ti eMMC XFCE Flasher (Recommended)
+  description: Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-13.3-xfce-v6.12-arm64-2026-02-12-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-emmc-flasher-debian-13.3-xfce-v6.12-arm64-2026-02-12-12gb.bmap
+  extract_size: 12884901888
+  extract_sha256: 9cc12264680568b6038d59e67904f9b0affc0e9b6fc3e3d0340fc19bf754bcc2
+  image_download_size: 1168415796
+  image_download_sha256: aa1685a9284b6529d1460f96d402ba56181a5ad5da95a1f98322408d81520bfd
+  release_date: '2026-02-12'
+  init_format: sysconf
+  devices:
+    - beagle-am62
+    - recommended

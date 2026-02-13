@@ -1,0 +1,14 @@
+- name: BeaglePlay Debian 13 v6.12.x-ti XFCE (Recommended)
+  description: Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.3-xfce-v6.12-arm64-2026-02-12-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.3-xfce-v6.12-arm64-2026-02-12-12gb.bmap
+  extract_size: 12884901888
+  extract_sha256: 4bd84050e2a56587063613e4a6eaeede2dbe83b830f0e6368ae80c1742fdbaf9
+  image_download_size: 1169502524
+  image_download_sha256: bd59d72179e240aa9523edf2beca5ff7e777fc222eff33f1915da568dd74a52a
+  release_date: '2026-02-12'
+  init_format: sysconf
+  devices:
+    - beagle-am62
+    - recommended
