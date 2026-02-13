@@ -10,10 +10,6 @@ run_img () {
 		cat ./device/${device}/xfce-lts-618.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-	if [ -f ./device/${device}/xfce-lts.yml ] ; then
-		cat ./device/${device}/xfce-lts.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
 	if [ -f ./device/${device}/xfce-stable.yml ] ; then
 		cat ./device/${device}/xfce-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
@@ -26,20 +22,20 @@ run_img () {
 		cat ./device/${device}/iot-lts-618.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-	if [ -f ./device/${device}/iot-lts.yml ] ; then
-		cat ./device/${device}/iot-lts.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
 	if [ -f ./device/${device}/iot-stable.yml ] ; then
 		cat ./device/${device}/iot-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
-	if [ -f ./device/${device}/workshop-stable.yml ] ; then
-		cat ./device/${device}/workshop-stable.yml | sed 's/^/  /' >> ./id.yml
+	if [ -f ./device/${device}/iot-ti-stable.yml ] ; then
+		cat ./device/${device}/iot-ti-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 	if [ -f ./device/${device}/workshop-lts-618.yml ] ; then
 		cat ./device/${device}/workshop-lts-618.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/workshop-ti-stable.yml ] ; then
+		cat ./device/${device}/workshop-ti-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 	if [ -f ./device/${device}/base-compat.yml ] ; then
@@ -76,10 +72,6 @@ run_img () {
 	fi
 	if [ -f ./device/${device}/old-base-lts-612.yml ] ; then
 		cat ./device/${device}/old-base-lts-612.yml | sed 's/^/  /' >> ./id.yml
-		echo "" >> ./id.yml
-	fi
-	if [ -f ./device/${device}/old-base-lts.yml ] ; then
-		cat ./device/${device}/old-base-lts.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 	if [ -f ./device/${device}/old-base-stable.yml ] ; then
