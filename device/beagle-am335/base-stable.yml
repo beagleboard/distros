@@ -1,13 +1,13 @@
 - name: BeagleBone Black Debian 13 v6.19.x (Stable)
   description: Debian 13 (Trixie) with no desktop environment for BeagleBone Black based on TI AM335x processor
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13.4-base-v6.19-armhf-2026-03-17-4gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-13.4-base-v6.19-armhf-2026-03-17-4gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13.4-base-v6.19-armhf-2026-04-23-4gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-13.4-base-v6.19-armhf-2026-04-23-4gb.bmap
   extract_size: 3774873600
-  extract_sha256: bc32d8291d5f46be44225df554b22bbcf83017f3db9ade7380fcf4ec824e4495
-  image_download_size: 377244920
-  image_download_sha256: ee385787ec5d13df239caaea58344a677b6f5ad59ffddf2a3ce7b4e0f541df93
-  release_date: '2026-03-17'
+  extract_sha256: 5b74b1604fdc2b83debda2abe8a02f9d0392340a37e5cfaae34a1eaa69ae5625
+  image_download_size: 386987680
+  image_download_sha256: ea693d7e895ce328057df99f08e3b6e49944da062225424003833af3a641af07
+  release_date: '2026-04-23'
   init_format: sysconf
   devices:
     - beagle-am335
