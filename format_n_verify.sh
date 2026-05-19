@@ -142,12 +142,12 @@ device="beaglev-fire" ; run_img
 #device="beagle-am62" ; run_flasher_img
 #device="beagle-tda4vm" ; run_flasher_img
 
-echo "  - name: Testing Images (other)" >> ./id.yml
-echo "    description: Here be Dragons, images for testing!!!" >> ./id.yml
-echo "    icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png" >> ./id.yml
-echo "    subitems:" >> ./id.yml
+#echo "  - name: Testing Images (other)" >> ./id.yml
+#echo "    description: Here be Dragons, images for testing!!!" >> ./id.yml
+#echo "    icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png" >> ./id.yml
+#echo "    subitems:" >> ./id.yml
 
-device="beagle-am67" ; run_test_img
+#device="beagle-am67" ; run_test_img
 
 if [ -f /usr/bin/yq ] ; then
 	cat ./id.yml | yq > os_list.json
