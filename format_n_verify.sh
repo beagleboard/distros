@@ -134,13 +134,13 @@ device="beagle-tda4vm" ; run_img
 device="beagle-am335" ; run_img
 device="beaglev-fire" ; run_img
 
-echo "  - name: eMMC Flashing (other)" >> ./id.yml
-echo "    description: These images will Flash the onboard eMMC on first bootup" >> ./id.yml
-echo "    icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png" >> ./id.yml
-echo "    subitems:" >> ./id.yml
-
-device="beagle-am62" ; run_flasher_img
-device="beagle-tda4vm" ; run_flasher_img
+#echo "  - name: eMMC Flashing (other)" >> ./id.yml
+#echo "    description: These images will Flash the onboard eMMC on first bootup" >> ./id.yml
+#echo "    icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png" >> ./id.yml
+#echo "    subitems:" >> ./id.yml
+#
+#device="beagle-am62" ; run_flasher_img
+#device="beagle-tda4vm" ; run_flasher_img
 
 echo "  - name: Testing Images (other)" >> ./id.yml
 echo "    description: Here be Dragons, images for testing!!!" >> ./id.yml

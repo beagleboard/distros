@@ -124,16 +124,16 @@
       ]
     },
     {
-      "name": "BeaglePlay Debian 13 v6.18.x-k3 XFCE (LTS-Dec-2027) (Vulkan/Mesa 26.0.x)",
-      "description": "Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
+      "name": "BeaglePlay Debian 13 v6.18.x-k3 XFCE (Vulkan/Mesa 26.0.x)",
+      "description": "Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor running linux 6.18, mainline support till Dec, 2028.",
       "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.3-xfce-v6.18-k3-arm64-2026-02-12-12gb.img.xz",
-      "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.3-xfce-v6.18-k3-arm64-2026-02-12-12gb.bmap",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.5-xfce-v6.18-k3-arm64-2026-05-19-12gb.img.xz",
+      "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.5-xfce-v6.18-k3-arm64-2026-05-19-12gb.bmap",
       "extract_size": 12884901888,
-      "extract_sha256": "c013409bfe3caea66d7c037efd552b85bdff145572c392e71001a7c25b757bce",
-      "image_download_size": 1176959460,
-      "image_download_sha256": "466e2c8c778157d9af2da1ebc3691fb63e186bb5a80078ba1fcf779900fd3aba",
-      "release_date": "2026-02-12",
+      "extract_sha256": "bd7331190955dc526441c692c7b22df40b54b220bd522f2c0d171438fa2bd9ea",
+      "image_download_size": 1224465948,
+      "image_download_sha256": "011b205f5fc2dbf9b68fed4c06ea530b55ac6f1c9f4df87973f5992940750e48",
+      "release_date": "2026-05-19",
       "init_format": "sysconf",
       "devices": [
         "beagle-am62",
@@ -141,33 +141,16 @@
       ]
     },
     {
-      "name": "BeaglePlay Debian 13 v6.19.x-k3 XFCE (Stable v6.19.x) (Vulkan/Mesa 26.0.x)",
+      "name": "BeaglePlay Debian 13 v6.12.x-ti XFCE",
       "description": "Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
       "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.3-xfce-v6.19-k3-arm64-2026-02-12-12gb.img.xz",
-      "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.3-xfce-v6.19-k3-arm64-2026-02-12-12gb.bmap",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.5-xfce-v6.12-arm64-2026-05-19-12gb.img.xz",
+      "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.5-xfce-v6.12-arm64-2026-05-19-12gb.bmap",
       "extract_size": 12884901888,
-      "extract_sha256": "11793e9b98a0a5cfc262ad1d21c393965bd6f2a020939b3ead4b2b61b95828c6",
-      "image_download_size": 1177509336,
-      "image_download_sha256": "9632f59faf0c1bf5b8742b8d05038b2361e7724a6289db366636ff03aae41838",
-      "release_date": "2026-02-12",
-      "init_format": "sysconf",
-      "devices": [
-        "beagle-am62",
-        "recommended"
-      ]
-    },
-    {
-      "name": "BeaglePlay Debian 13 v6.12.x-ti XFCE (Recommended)",
-      "description": "Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
-      "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.3-xfce-v6.12-arm64-2026-02-12-12gb.img.xz",
-      "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.3-xfce-v6.12-arm64-2026-02-12-12gb.bmap",
-      "extract_size": 12884901888,
-      "extract_sha256": "4bd84050e2a56587063613e4a6eaeede2dbe83b830f0e6368ae80c1742fdbaf9",
-      "image_download_size": 1169502524,
-      "image_download_sha256": "bd59d72179e240aa9523edf2beca5ff7e777fc222eff33f1915da568dd74a52a",
-      "release_date": "2026-02-12",
+      "extract_sha256": "2f7a4697300ed372e159f3087fa88c0dbb5280d8080340719a7ca95ae0a95beb",
+      "image_download_size": 1204361172,
+      "image_download_sha256": "216991a354922fbef5b1d9d5d9bab518dfc67f791ebad2e5032d19ee8e6c4a5c",
+      "release_date": "2026-05-19",
       "init_format": "sysconf",
       "devices": [
         "beagle-am62",
@@ -178,13 +161,13 @@
       "name": "BeaglePlay Debian 13 v6.12.x-ti Minimal",
       "description": "Debian 13 (Trixie) with no desktop environment for BeaglePlay based on TI AM62 processor",
       "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.3-base-v6.12-arm64-2026-02-12-8gb.img.xz",
-      "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.3-base-v6.12-arm64-2026-02-12-8gb.bmap",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.5-base-v6.12-arm64-2026-05-19-8gb.img.xz",
+      "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.5-base-v6.12-arm64-2026-05-19-8gb.bmap",
       "extract_size": 7818182656,
-      "extract_sha256": "c4d96e03081394b170dceeb826940cb8a047f9fb5a1d3a80fcfa0db685e104ce",
-      "image_download_size": 556856676,
-      "image_download_sha256": "d8e16a546a225136b7bbf0ee2dafae517984ebe6c3b4d7a09e5f2440e57948f1",
-      "release_date": "2026-02-12",
+      "extract_sha256": "2d6071458955269052423b074ca72e37785ecb63a462263ffa76f2fd7104b37c",
+      "image_download_size": 586617920,
+      "image_download_sha256": "7437f4405224a5cc37505bcd6323703b963fb0f2d6fd1c90cfe069a3f26cb440",
+      "release_date": "2026-05-19",
       "init_format": "sysconf",
       "devices": [
         "beagle-am62",
@@ -459,47 +442,6 @@
       "devices": [
         "beaglev-fire",
         "recommended"
-      ]
-    },
-    {
-      "name": "eMMC Flashing (other)",
-      "description": "These images will Flash the onboard eMMC on first bootup",
-      "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-      "subitems": [
-        {
-          "name": "BeaglePlay Debian 13 v6.12.x-ti eMMC XFCE Flasher (Recommended)",
-          "description": "Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor",
-          "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-          "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-13.3-xfce-v6.12-arm64-2026-02-12-12gb.img.xz",
-          "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-emmc-flasher-debian-13.3-xfce-v6.12-arm64-2026-02-12-12gb.bmap",
-          "extract_size": 12884901888,
-          "extract_sha256": "9cc12264680568b6038d59e67904f9b0affc0e9b6fc3e3d0340fc19bf754bcc2",
-          "image_download_size": 1168415796,
-          "image_download_sha256": "aa1685a9284b6529d1460f96d402ba56181a5ad5da95a1f98322408d81520bfd",
-          "release_date": "2026-02-12",
-          "init_format": "sysconf",
-          "devices": [
-            "beagle-am62",
-            "recommended"
-          ]
-        },
-        {
-          "name": "BeaglePlay Debian 13 v6.12.x-ti eMMC Minimal Flasher",
-          "description": "Debian 13 (Trixie) with no desktop environment for BeaglePlay based on TI AM62 processor",
-          "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-          "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-emmc-flasher-debian-13.3-base-v6.12-arm64-2026-02-12-8gb.img.xz",
-          "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-emmc-flasher-debian-13.3-base-v6.12-arm64-2026-02-12-8gb.bmap",
-          "extract_size": 7818182656,
-          "extract_sha256": "31e2a848a2437e9d8b6faf5e652b3b2fe2bcd63fd40907902789ac6f3cd2ecac",
-          "image_download_size": 554916928,
-          "image_download_sha256": "3a4d11e12d910c835e85b3c511a8acf88c91c1092ec4a914a556da1247afeea4",
-          "release_date": "2026-02-12",
-          "init_format": "sysconf",
-          "devices": [
-            "beagle-am62",
-            "recommended"
-          ]
-        }
       ]
     },
     {
