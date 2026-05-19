@@ -51,7 +51,7 @@ ymlfile="base-lts-612" ; grab_image
 kernel_version="v6.18"
 ymlfile="base-lts-618" ; grab_image
 
-kernel_version="v6.19"
-ymlfile="base-stable" ; grab_trixie
+#kernel_version="v6.19"
+#ymlfile="base-stable" ; grab_trixie
 
 #
