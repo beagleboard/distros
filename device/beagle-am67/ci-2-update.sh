@@ -37,11 +37,11 @@ file_prefix="${device}-debian-${debian_stable}-base-${kernel_version}-${arch}-${
 
 ymlfile="base-ti-stable" ; grab_image
 
-#size="12gb"
-#kernel_version="v7.0-k3"
-#server_dir="debian-${arch}-13-xfce-${kernel_version}"
-#file_prefix="${device}-debian-${debian_stable}-xfce-${kernel_version}-${arch}-${date}-${size}"
+size="12gb"
+kernel_version="v7.0-k3"
+server_dir="debian-${arch}-13-xfce-${kernel_version}"
+file_prefix="${device}-debian-${debian_stable}-xfce-${kernel_version}-${arch}-${date}-${size}"
 
-#ymlfile="xfce-stable" ; grab_image
+ymlfile="xfce-stable" ; grab_image
 
 #
