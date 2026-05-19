@@ -443,30 +443,6 @@
         "beaglev-fire",
         "recommended"
       ]
-    },
-    {
-      "name": "Testing Images (other)",
-      "description": "Here be Dragons, images for testing!!!",
-      "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-      "subitems": [
-        {
-          "name": "BeagleY-AI Debian 13 v6.12.x-ti XFCE (Testing)",
-          "description": "Debian 13 (Trixie) with the Xfce Desktop for BeagleY-AI based on TI AM67A (J722S) processor",
-          "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
-          "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-13.2-xfce-v6.12-arm64-2025-11-25-12gb.img.xz",
-          "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagley-ai-debian-13.2-xfce-v6.12-arm64-2025-11-25-12gb.bmap",
-          "extract_size": 12884901888,
-          "extract_sha256": "b975094ac2cd8ad670f970fadc439389ef5e48d5195547dd7132f2e906c4721c",
-          "image_download_size": 1174590016,
-          "image_download_sha256": "9b450ea97d4518a6424306e16a7d543646df550a0478da5729e6db10a7d319ef",
-          "release_date": "2025-11-25",
-          "init_format": "sysconf",
-          "devices": [
-            "beagle-am67",
-            "recommended"
-          ]
-        }
-      ]
     }
   ]
 }
