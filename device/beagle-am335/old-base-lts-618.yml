@@ -1,13 +1,13 @@
 - name: BeagleBone Black Debian 12 v6.18.x
   description: Debian 12 (Bookworm) with no desktop environment for BeagleBone Black based on TI AM335x processor running linux 6.18, mainline support till Dec, 2028.
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.14-base-v6.18-armhf-2026-05-19-4gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-12.14-base-v6.18-armhf-2026-05-19-4gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-12.15-base-v6.18-armhf-2026-07-15-4gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-12.15-base-v6.18-armhf-2026-07-15-4gb.bmap
   extract_size: 3774873600
-  extract_sha256: ff1713336a458572e6df9565f668aba9b5bb057ccb58a41824ed19e1549b1f17
-  image_download_size: 366178412
-  image_download_sha256: 0f116afb52acfd68a9f6e9be604ac1ed1eea8869ec1c7385c15eda844eb18e92
-  release_date: '2026-05-19'
+  extract_sha256: ee37552c7d0fab950109ab3f304150cf3caf363ca6f98cc7415ee669fc3f4c80
+  image_download_size: 379525300
+  image_download_sha256: 59430a62803a5a5101c54ff54a71dc07c4d4dbbf65fd723b70a038e03bd738be
+  release_date: '2026-07-15'
   init_format: sysconf
   devices:
     - beagle-am335
