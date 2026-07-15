@@ -328,6 +328,23 @@
       ]
     },
     {
+      "name": "BeagleBone Black Debian 13 v6.18.x",
+      "description": "Debian 13 (Trixie) with the Xfce Desktop for BeagleBone Black based on TI AM335x processor running linux 6.18, mainline support till Dec, 2028.",
+      "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",
+      "url": "https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13.6-xfce-v6.18-armhf-2026-07-15-12gb.img.xz",
+      "bmap": "https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-13.6-xfce-v6.18-armhf-2026-07-15-12gb.bmap",
+      "extract_size": 12884901888,
+      "extract_sha256": "fe821cbf1908189946643e19ab860a396ee849ec2298333a2fde4ddb86b441d9",
+      "image_download_size": 855562208,
+      "image_download_sha256": "f0212be17df7bae74646ef9a148046531ef488ce17fcb75491a38f263ebb9bd0",
+      "release_date": "2026-07-15",
+      "init_format": "sysconf",
+      "devices": [
+        "beagle-am335",
+        "recommended"
+      ]
+    },
+    {
       "name": "BeagleBone Black Debian 13 v5.10.x-ti (Old Compatible)",
       "description": "Debian 13 (Trixie) with no desktop environment for BeagleBone Black based on TI AM335x processor",
       "icon": "https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png",

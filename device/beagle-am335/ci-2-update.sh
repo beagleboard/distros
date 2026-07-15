@@ -4,12 +4,13 @@
 
 server_base_dir="https://rcn-ee.net/rootfs"
 
+image="base"
 arch="armhf"
 size="4gb"
 
 grab_trixie () {
-	server_dir="debian-${arch}-13-base-${kernel_version}"
-	file_prefix="${device}-debian-${debian_stable}-base-${kernel_version}-${arch}-${date}-${size}"
+	server_dir="debian-${arch}-13-${image}-${kernel_version}"
+	file_prefix="${device}-debian-${debian_stable}-${image}-${kernel_version}-${arch}-${date}-${size}"
 
 	wget -c --directory-prefix=/tmp/ ${server_base_dir}/${server_dir}/${date}/${file_prefix}.bmap
 	if [ ! -f /tmp/${file_prefix}.bmap ] ; then
@@ -23,8 +24,8 @@ grab_trixie () {
 }
 
 grab_bookworm () {
-	server_dir="debian-${arch}-12-base-${kernel_version}"
-	file_prefix="${device}-debian-${debian_old}-base-${kernel_version}-${arch}-${date}-${size}"
+	server_dir="debian-${arch}-12-${image}-${kernel_version}"
+	file_prefix="${device}-debian-${debian_old}-${image}-${kernel_version}-${arch}-${date}-${size}"
 
 	wget -c --directory-prefix=/tmp/ ${server_base_dir}/${server_dir}/${date}/${file_prefix}.bmap
 	if [ ! -f /tmp/${file_prefix}.bmap ] ; then
@@ -51,7 +52,10 @@ ymlfile="base-lts-612" ; grab_image
 kernel_version="v6.18"
 ymlfile="base-lts-618" ; grab_image
 
-#kernel_version="v6.19"
-#ymlfile="base-stable" ; grab_trixie
+image="xfce"
+size="12gb"
+
+kernel_version="v6.18"
+ymlfile="xfce-lts-618" ; grab_trixie
 
 #
