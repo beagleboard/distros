@@ -1,0 +1,14 @@
+- name: BeagleBone AI-64 Debian 13 v6.18.x-k3 IoT
+  description: Debian 13 (Trixie) with no desktop environment for BeagleBone AI-64 based on TI TDA4VM processor running linux 6.18, mainline support till Dec, 2028.
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-13.6-iot-v6.18-k3-arm64-2026-07-15-8gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-debian-13.6-iot-v6.18-k3-arm64-2026-07-15-8gb.bmap
+  extract_size: 7818182656
+  extract_sha256: 3a16de42d89e1357389adb675eee502366e0437e1dc48e9442a399f77117b94b
+  image_download_size: 682070496
+  image_download_sha256: 0f646908c2b64f479c2787af16a822ebdb5678c014733c8780fa9fdc77c9b3e9
+  release_date: '2026-07-15'
+  init_format: sysconf
+  devices:
+    - beagle-tda4vm
+    - recommended
