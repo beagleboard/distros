@@ -6,4 +6,4 @@ cd ../../
 cd -
 git add ../../bmap-temp/ || true
 git add ./*.yml || true
-git commit -a -m "${device}: ${debian_stable}-base/${debian_stable}-xfce ${date}" -s
+git commit -a -m "${device}: ${debian_stable}-iot/${debian_stable}-xfce ${date}" -s
