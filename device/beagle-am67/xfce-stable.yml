@@ -1,13 +1,13 @@
 - name: BeagleY-AI Debian 13 v7.1.x-k3 XFCE
-  description: Debian 13 (Trixie) with the Xfce Desktop for BeagleY-AI based on TI AM67A (J722S) processor running linux 7.1}.
+  description: Debian 13 (Trixie) with the Xfce Desktop for BeagleY-AI based on TI AM67A (J722S) processor running linux 7.1.
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-13.6-xfce-v7.1-k3-arm64-2026-07-15-12gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagley-ai-debian-13.6-xfce-v7.1-k3-arm64-2026-07-15-12gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-13.6-xfce-v7.1-k3-arm64-2026-07-22-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagley-ai-debian-13.6-xfce-v7.1-k3-arm64-2026-07-22-12gb.bmap
   extract_size: 12884901888
-  extract_sha256: bc3b6c0cca617dc6e832717f5028ef4e2dabb348570f5eb6af54483175255ba6
-  image_download_size: 1241886428
-  image_download_sha256: 4ec6eb9f8c5b6859c13cb4f3300b29e03ef02d8901750ad9ab6367650c9ccf1c
-  release_date: '2026-07-15'
+  extract_sha256: 3ae7be268e4138f95ceb10e11ee5f6697301b86eab0accf868d58831e2134fc2
+  image_download_size: 1241754576
+  image_download_sha256: 703e80151eb069fd648c613389c1f6ca082b58912b605dbbb00eebb3e6515ff9
+  release_date: '2026-07-22'
   init_format: sysconf
   devices:
     - beagle-am67
