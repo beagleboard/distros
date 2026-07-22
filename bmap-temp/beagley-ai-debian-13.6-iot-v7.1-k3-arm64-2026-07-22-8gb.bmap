@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<!-- This file contains the block map for an image file, which is basically
+     a list of useful (mapped) block numbers in the image file. In other words,
+     it lists only those blocks which contain data (boot sector, partition
+     table, file-system metadata, files, directories, extents, etc). These
+     blocks have to be copied to the target device. The other blocks do not
+     contain any useful data and do not have to be copied to the target
+     device.
+
+     The block map is an optimization which allows to copy or flash the image
+     to the image quicker than copying of flashing the entire image. This is
+     because with bmap less data is copied: <MappedBlocksCount> blocks instead
+     of <BlocksCount> blocks.
+
+     Besides the machine-readable data, this file contains useful commentaries
+     which contain human-readable information like image size, percentage of
+     mapped data, etc.
+
+     The 'version' attribute is the block map file format version in the
+     'major.minor' format. The version major number is increased whenever an
+     incompatible block map format change is made. The minor number changes
+     in case of minor backward-compatible changes. -->
+
+<bmap version="2.0">
+    <!-- Image size in bytes: 7.3 GiB -->
+    <ImageSize> 7818182656 </ImageSize>
+
+    <!-- Size of a block in bytes -->
+    <BlockSize> 4096 </BlockSize>
+
+    <!-- Count of blocks in the image file -->
+    <BlocksCount> 1908736 </BlocksCount>
+
+    <!-- Count of mapped blocks: 4.5 GiB or 61.6%    -->
+    <MappedBlocksCount> 1175618 </MappedBlocksCount>
+
+    <!-- Type of checksum used in this file -->
+    <ChecksumType> sha256 </ChecksumType>
+
+    <!-- The checksum of this bmap file. When it is calculated, the value of
+         the checksum has to be zero (all ASCII "0" symbols).  -->
+    <BmapFileChecksum> d3df774f3a0c92207b0bf3e1331146fe7b10d3954ad3aaa3a216e7fbede2742e </BmapFileChecksum>
+
+    <!-- The block map which consists of elements which may either be a
+         range of blocks or a single block. The 'chksum' attribute
+         (if present) is the checksum of this block range. -->
+    <BlockMap>
+        <Range chksum="d897d6956d7b789c318c74ca11bb91adfc9f9ecb968e4f355c9a959f30ebbcaf"> 0 </Range>
+        <Range chksum="321fef8c447450c3a5b72f119b84e87cda96763c44846c6cfbdefb51243efcec"> 256-10762 </Range>
+        <Range chksum="33ac33bf577de0c2e40ad726221b70207183c27393e9a0c78950397f31cec1da"> 65792-66696 </Range>
+        <Range chksum="499a91160bba99ddf7bad8fb52377ff9df780dc017449bdef1b722af2fdbae8d"> 66698 </Range>
+        <Range chksum="499a91160bba99ddf7bad8fb52377ff9df780dc017449bdef1b722af2fdbae8d"> 66700 </Range>
+        <Range chksum="499a91160bba99ddf7bad8fb52377ff9df780dc017449bdef1b722af2fdbae8d"> 66702 </Range>
+        <Range chksum="e1c9df8eb15c0561499969edda41c27ddb8c5e8789542a8c5f709588b445222a"> 66709-66712 </Range>
+        <Range chksum="415cce4c9386064c7f5a5a1c805a96cd428ce67229ae93b98af0a8e7fe1f19e3"> 66725-68635 </Range>
+        <Range chksum="f66d2f48fee027988c33938ebbe26f9cd0564d90fc298cef2e69565ed948c252"> 74821-76967 </Range>
+        <Range chksum="5fbd3d93c8cfab749a33d2597ad1bd8f008a4a6a14753aabcd7a096491c97d4e"> 98560-98561 </Range>
+        <Range chksum="85578f9f403cbafc3e2803e533b014db929548a715726e5f50eb21b60ddf2c39"> 99461-139508 </Range>
+        <Range chksum="9779e9cb1765bf007b5d3ade3ea473c06998f966f8506a60c0f8b5ea0b1eb720"> 139520-143866 </Range>
+        <Range chksum="4ec589bb7ae0935012051d509820d6f1aca4ade5f58396866c087b9d75e753c2"> 143872-144125 </Range>
+        <Range chksum="4094bb0b8a8f15f0712d38721bb4571938e2d0b1548a10882b7da96b8c284d3f"> 144128-147379 </Range>
+        <Range chksum="aace30cc1b3ee0e2487f92a9f27a6280aa44b609faeeab4349f8772c43aa1476"> 147392-147709 </Range>
+        <Range chksum="841ed120291adcef8dc42fc111e2ab17ffaeba1e8467cabf200e7da2d043f49f"> 147712-148720 </Range>
+        <Range chksum="aedbc0d099c2db6f140f2a33d2c0494118c613b78b35b7583c2b39bbb2b3e433"> 148736-150270 </Range>
+        <Range chksum="75f76f8ea56bf6f2e3445e411cfa5f8b9ba05fd11ac044bd83df8672721557a9"> 150272-156916 </Range>
+        <Range chksum="ac91b37c87466595b4c41aebd45c5edbb588d10206a397d111acc60c6d7a73b0"> 156928-158234 </Range>
+        <Range chksum="aeb722a2c746dd96eb64e3bb4345f5b8aae1e646d9dfa1684bf381c1676206b2"> 158240-158969 </Range>
+        <Range chksum="06365091784dc26cc84310c22228012dfe9e65adea88672586aecd4c067bbd7e"> 158976-159000 </Range>
+        <Range chksum="143b6432b09b1a2b36f673b21f09b96630309b6e7f8cee3c092b4ec4e03991e2"> 159488-159993 </Range>
+        <Range chksum="b005766c23ec83251afcb2fa4af463a91d17835470c1df5dc0fa4973239736a1"> 160000-163975 </Range>
+        <Range chksum="a4be5cac0c394b33a3d8f34eb65b9273a449eff6517c552ac75b33d7c27887b0"> 164000-164063 </Range>
+        <Range chksum="39635b63563c05c33f9545f45fa05a615e55449b80a667b45ab4c785d91e449b"> 164096-164097 </Range>
+        <Range chksum="9022364a1d648be67cb2ccf703252edee1c75eebdaba5b2e7cf692c4f40fb157"> 164997-165078 </Range>
+        <Range chksum="57df6fa1c8cdef675ab2fcb38b679e3b5783e6a8a707ab15fcb0f5bd46195d12"> 165120-167620 </Range>
+        <Range chksum="9de7ce10e3fea29ab1682ba898949051b8483f41882f904872c07022257b351e"> 168192-179012 </Range>
+        <Range chksum="4fe51bfac2b992d4c6d9b34fa4cfa6241746a341111f9ac63e0b40797895b360"> 229632-229633 </Range>
+        <Range chksum="3f0b40e37a0e51de339086aaddd4f3d838e6d3fc5e242935e9f4ba8a657eadd4"> 295168-295169 </Range>
+        <Range chksum="a6400ac429046b9744c75b3bdcc580af055a85ec22c26c3fbf037f2567d36a41"> 360704-360705 </Range>
+        <Range chksum="a3f800e2bb237eb2a0e975304ebf5d845e984e9d1713b5031e8724cfc2e0432e"> 590080-590091 </Range>
+        <Range chksum="a15c59b81695de909103d894bbe29b23c6b00bda99060066b2fccf1e72f9b2d6"> 590096-590103 </Range>
+        <Range chksum="f94724504b4711c66fcc59239c897b4bd63f75234471607cd4dc7b41f7333c68"> 590112-593988 </Range>
+        <Range chksum="7e9e1294e196e1e5d0948495edcae963b71fd8ae8aef5ca19fd0187965c975fc"> 598208-598219 </Range>
+        <Range chksum="cedabb174dedcc875c14214ec2c4c8db87ad7e6e871cb185700587f81f4d5211"> 622848-884993 </Range>
+        <Range chksum="0ea71af3ab226fe59fbc5c2568e44463c6ac0977a54ce252bd844a069881f1bb"> 885893-950529 </Range>
+        <Range chksum="10f75240ba366b5b6e591b47b853bf98ad916be027e1c04e6ebf1b403ac9f9f4"> 1114368-1114384 </Range>
+        <Range chksum="d2bb04d4eca56e4a8406a0efda4a0777c801d1386cf52114225e1ad1637eb1f9"> 1114400 </Range>
+        <Range chksum="18f0f0141a88a8ec5645f0931e7e776c08aaf0be1c0a6b6218ee8d475bc60063"> 1122496-1638664 </Range>
+        <Range chksum="e05d56b40ae4ebc48dcf143ee991c9a3ca37bccf2814a11c90c22549cada3e7b"> 1643228-1643290 </Range>
+        <Range chksum="788c6600527a4b94350164d44020e3f5748408928917f5c216cad76a692a55a7"> 1671424-1671425 </Range>
+        <Range chksum="4d6f6b59274d7072dd6dfcebada18be299647a31309119063118f9050c42636f"> 1672325-1884413 </Range>
+        <Range chksum="a08bbab00a5f2dbea2e12afe7552aaa5a1db37e224581aec0d1810c801cbf0b7"> 1884416-1890034 </Range>
+        <Range chksum="4625cbd49317221b8ebd56b1472df195430ed4877c8bdd80a78673e3f2138edf"> 1890048-1894134 </Range>
+        <Range chksum="6ee9b9b3af06a23e44787e83463a4a5ecbc2aad2891b7a214f745d59ff6dbe92"> 1894144-1896700 </Range>
+        <Range chksum="92e1d2550149c250ff25a8fd02a0904e9d4905be6c4b85441a348bc43404b47e"> 1896704-1900055 </Range>
+        <Range chksum="d0129208f87da2e55a172c0fb1040df491c8e575920f0347f4d091b266ea5791"> 1900288-1900413 </Range>
+        <Range chksum="c312b2976358042dc1cefff9f064af8670adc73b8ba458993a1e0075f1045db8"> 1900800-1908735 </Range>
+    </BlockMap>
+</bmap>
