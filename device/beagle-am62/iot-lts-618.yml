@@ -1,13 +1,13 @@
 - name: BeaglePlay Debian 13 v6.18.x-k3 IoT
   description: Debian 13 (Trixie) with no desktop environment for BeaglePlay based on TI AM62 processor running linux 6.18, mainline support till Dec, 2028.
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.6-iot-v6.18-k3-arm64-2026-07-22-8gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.6-iot-v6.18-k3-arm64-2026-07-22-8gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.6-iot-v6.18-k3-arm64-2026-07-24-8gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.6-iot-v6.18-k3-arm64-2026-07-24-8gb.bmap
   extract_size: 7818182656
-  extract_sha256: 74444e9a5d778f7d405869c645f0763a5bb6109e6b2607ebd59eb49f58723268
-  image_download_size: 1079530740
-  image_download_sha256: bac54d3b3b83a1466433f840dedb03cac88bff4e6661bf1d459c4fe06f3fe2ac
-  release_date: '2026-07-22'
+  extract_sha256: 296b232bb8d19889c7cc61ca9672423a8835efd47d345ee7461b9055b1826f24
+  image_download_size: 1079652652
+  image_download_sha256: d052547865e38400762444849b894c0ad3dfb0f0ed8aa159c9ac6e3c553f34bb
+  release_date: '2026-07-24'
   init_format: sysconf
   devices:
     - beagle-am62
