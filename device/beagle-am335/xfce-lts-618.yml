@@ -1,13 +1,13 @@
 - name: BeagleBone Black Debian 13 v6.18.x XFCE
   description: Debian 13 (Trixie) with the Xfce Desktop for BeagleBone Black based on TI AM335x processor running linux 6.18, mainline support till Dec, 2028.
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13.6-xfce-v6.18-armhf-2026-07-22-12gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-13.6-xfce-v6.18-armhf-2026-07-22-12gb.bmap
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13.6-xfce-v6.18-armhf-2026-07-24-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-13.6-xfce-v6.18-armhf-2026-07-24-12gb.bmap
   extract_size: 12884901888
-  extract_sha256: 55c2195861d1fc97ea46f62e80cf68a3d0f674e69c136e87f4edcd7c687f1d9c
-  image_download_size: 865737436
-  image_download_sha256: fa33d303ff654f3df4c9ed93198c9d5f86202045316304659cabeeef8a0753b9
-  release_date: '2026-07-22'
+  extract_sha256: d095b0b3364e8fe1081ff953e7fd9e45dfd1a9796b4e1b0ffbbbb4773c05eebd
+  image_download_size: 862647760
+  image_download_sha256: b749cffb4b1506a87de67ac143a73a50aadebc90a733697708ac24869288cd84
+  release_date: '2026-07-24'
   init_format: sysconf
   devices:
     - beagle-am335
