@@ -30,6 +30,6 @@ grab_image () {
 
 file_prefix="beaglev-fire-debian-13-iot-v6.12-riscv64-${date}-4gb"
 
-ymlfile="iot-stable" ; grab_image
+ymlfile="base-lts-612" ; grab_image
 
 #
