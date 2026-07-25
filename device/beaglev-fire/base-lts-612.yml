@@ -9,6 +9,6 @@
   image_download_sha256: e1ff7ad1ca73c1ce1d22cdb516ed1bd8536f8d3e017727d56ce66006824e2db9
   release_date: '2026-07-25'
   init_format: sysconf
-    devices:
-      - beaglev-fire
-      - recommended
+  devices:
+    - beaglev-fire
+    - recommended
