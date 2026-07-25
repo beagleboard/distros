@@ -1,0 +1,14 @@
+- name: BeagleV-Fire Debian 13 v6.12.x
+  description: Debian 13 (Trixie) with no desktop environment for BeagleV-Fire based on Microchip Polarfire MPFS025T SoC FPGA running Microchip's linux 6.12
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beaglev-fire-debian-13-iot-v6.12-riscv64-2026-07-25-4gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beaglev-fire-debian-13-iot-v6.12-riscv64-2026-07-25-4gb.bmap
+  extract_size: 2441723904
+  extract_sha256: 40e872e6f943ca37b8ee4ad9bcc4c30d02dd30faddb112054564b4fc67dd8043
+  image_download_size: 450760244
+  image_download_sha256: e1ff7ad1ca73c1ce1d22cdb516ed1bd8536f8d3e017727d56ce66006824e2db9
+  release_date: '2026-07-25'
+  init_format: sysconf
+    devices:
+      - beaglev-fire
+      - recommended
