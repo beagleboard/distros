@@ -7,7 +7,7 @@
   image_download_size: 1163142700
   image_download_sha256: 15590838f83501a636364199da2f1bf7cda501bbdc918c64beb36f18a92604e6
   release_date: '2025-09-06'
-  init_format: sysconf
+  init_format: none
   devices:
     - beagle-am67
     - recommended
