@@ -40,7 +40,7 @@ grab_bookworm () {
 
 grab_image () {
 	grab_trixie
-	grab_bookworm
+	#grab_bookworm
 }
 
 kernel_version="v5.10-ti"
