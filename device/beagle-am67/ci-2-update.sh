@@ -23,14 +23,14 @@ grab_image () {
 }
 
 size="8gb"
-kernel_version="v7.1-k3"
+kernel_version="v7.2-k3"
 server_dir="debian-${arch}-13-iot-${kernel_version}"
 file_prefix="${device}-debian-${debian_stable}-iot-${kernel_version}-${arch}-${date}-${size}"
 
 ymlfile="iot-stable" ; grab_image
 
 size="12gb"
-kernel_version="v7.1-k3"
+kernel_version="v7.2-k3"
 server_dir="debian-${arch}-13-xfce-${kernel_version}"
 file_prefix="${device}-debian-${debian_stable}-xfce-${kernel_version}-${arch}-${date}-${size}"
 
