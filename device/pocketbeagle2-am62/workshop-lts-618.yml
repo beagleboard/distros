@@ -1,13 +1,14 @@
-- name: PocketBeagle 2 Debian 13 v6.18.x-k3 IoT (TechLab Workshop)
+- name: PocketBeagle 2 Debian 13 v6.18.x-k3 IoT (TechLab Workshop) 2026-09-20
   description: Debian 13 (Trixie) with no desktop environment for PocketBeagle 2 (and PocketBeagle 2 Industrial) based on TI AM62 processor running linux 6.18, mainline support till Dec, 2028.
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-workshop-debian-13.7-iot-v6.18-k3-arm64-2026-09-15-8gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/pocketbeagle2-workshop-debian-13.7-iot-v6.18-k3-arm64-2026-09-15-8gb.bmap
-  extract_size: 7818182656
-  extract_sha256: 9072350434ead68366c78577f8539b5d7e4a89be5b44eeb0b529ad9caa4810e9
-  image_download_size: 1127312920
-  image_download_sha256: 9d28ab2244aff15840b6498491619192b0e1ffb010cce46370624ed19e7ac794
-  release_date: '2026-09-15'
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/pocketbeagle2-workshop-debian-13.7-iot-v6.18-k3-arm64-2026-09-20-10gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/pocketbeagle2-workshop-debian-13.7-iot-v6.18-k3-arm64-2026-09-20-10gb.bmap
+  sbom: https://raw.githubusercontent.com/beagleboard/sbom-archive/refs/heads/main/sbom/pocketbeagle2-workshop-debian-13.7-iot-v6.18-k3-arm64-2026-09-20-10gb.syft.spdx.json.xz
+  extract_size: 10737418240
+  extract_sha256: ee7e99a27df954ecefee2b61c39d261614e2fbc14c441b99fce0350d6f5c356b
+  image_download_size: 1127796176
+  image_download_sha256: 7dddf36658abe2f678db7246b6ae331fdfcb81a7ad8508021d006210d5cbef89
+  release_date: '2026-09-20'
   init_format: sysconf
   devices:
     - pocketbeagle2-am62
