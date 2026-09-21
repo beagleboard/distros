@@ -21,6 +21,14 @@ grab_trixie () {
 
 	wget -c --directory-prefix=/tmp/ ${server_base_dir}/${server_dir}/${date}/${file_prefix}.img.xz.yml.txt
 	mv -v /tmp/${file_prefix}.img.xz.yml.txt ${ymlfile}.yml
+	sed -i -e 's:distros/refs/heads/main/sbom-temp:sbom-archive/refs/heads/main/sbom:g' ${ymlfile}.yml
+
+	wget -c --directory-prefix=/tmp/ ${server_base_dir}/${server_dir}/${date}/${file_prefix}.syft.spdx.json.xz
+	if [ ! -f /tmp/${file_prefix}.syft.spdx.json.xz ] ; then
+		echo "Failure to get ${server_base_dir}/${server_dir}/${date}/${file_prefix}.syft.spdx.json.xz"
+		exit 2
+	fi
+	mv -v /tmp/${file_prefix}.syft.spdx.json.xz ../../../sbom-archive/sbom/
 }
 
 grab_bookworm () {
@@ -36,11 +44,19 @@ grab_bookworm () {
 
 	wget -c --directory-prefix=/tmp/ ${server_base_dir}/${server_dir}/${date}/${file_prefix}.img.xz.yml.txt
 	mv -v /tmp/${file_prefix}.img.xz.yml.txt old-${ymlfile}.yml
+	sed -i -e 's:distros/refs/heads/main/sbom-temp:sbom-archive/refs/heads/main/sbom:g' ${ymlfile}.yml
+
+	wget -c --directory-prefix=/tmp/ ${server_base_dir}/${server_dir}/${date}/${file_prefix}.syft.spdx.json.xz
+	if [ ! -f /tmp/${file_prefix}.syft.spdx.json.xz ] ; then
+		echo "Failure to get ${server_base_dir}/${server_dir}/${date}/${file_prefix}.syft.spdx.json.xz"
+		exit 2
+	fi
+	mv -v /tmp/${file_prefix}.syft.spdx.json.xz ../../../sbom-archive/sbom/
 }
 
 grab_image () {
 	grab_trixie
-	#grab_bookworm
+	grab_bookworm
 }
 
 kernel_version="v5.10-ti"
