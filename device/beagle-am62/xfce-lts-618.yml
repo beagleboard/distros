@@ -1,14 +1,14 @@
-- name: BeaglePlay Debian 13 v6.18.x-k3 XFCE (Vulkan/Mesa 26.0.x) 2026-10-09
+- name: BeaglePlay Debian 13 v6.18.x-k3 XFCE (Vulkan/Mesa 26.0.x) 2026-11-23
   description: Debian 13 (Trixie) with the Xfce Desktop for BeaglePlay based on TI AM62 processor running linux 6.18, mainline support till Dec, 2028.
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.7-xfce-v6.18-k3-arm64-2026-10-09-12gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.7-xfce-v6.18-k3-arm64-2026-10-09-12gb.bmap
-  sbom: https://raw.githubusercontent.com/beagleboard/sbom-archive/refs/heads/main/sbom/beagleplay-debian-13.7-xfce-v6.18-k3-arm64-2026-10-09-12gb.syft.spdx.json.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.8-xfce-v6.18-k3-arm64-2026-11-23-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.8-xfce-v6.18-k3-arm64-2026-11-23-12gb.bmap
+  sbom: https://raw.githubusercontent.com/beagleboard/sbom-archive/refs/heads/main/sbom/beagleplay-debian-13.8-xfce-v6.18-k3-arm64-2026-11-23-12gb.syft.spdx.json.xz
   extract_size: 12884901888
-  extract_sha256: 8adff5ccc86bc0b525804427a54808c88fcfc7517bcfcfdfa065eace2fbf948e
-  image_download_size: 1270681404
-  image_download_sha256: dfd433e187830eb41d2dd0900ef678b79d3e501bd4a9d864af2e169bac24bc65
-  release_date: '2026-10-09'
+  extract_sha256: ae65931a09981e11d8cad76f3b88ab64c1f2cb8dfd7471974f8898b82c0d11f6
+  image_download_size: 1327641192
+  image_download_sha256: 257e83ceabee9aa2329dc208ddbdbb7ae007e595c985d13a44d8fb160bf7f761
+  release_date: '2026-11-23'
   init_format: sysconf
   devices:
     - beagle-am62

@@ -22,6 +22,10 @@ run_img () {
 		cat ./device/${device}/xfce-ti-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+	if [ -f ./device/${device}/iot-lts-73.yml ] ; then
+		cat ./device/${device}/iot-lts-73.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 	if [ -f ./device/${device}/iot-lts-618.yml ] ; then
 		cat ./device/${device}/iot-lts-618.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
