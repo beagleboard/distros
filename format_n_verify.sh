@@ -38,6 +38,10 @@ run_img () {
 		cat ./device/${device}/iot-ti-stable.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
+	if [ -f ./device/${device}/workshop-lts-73.yml ] ; then
+		cat ./device/${device}/workshop-lts-73.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 	if [ -f ./device/${device}/workshop-lts-618.yml ] ; then
 		cat ./device/${device}/workshop-lts-618.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
