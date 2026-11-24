@@ -35,13 +35,13 @@ kernel_version="v7.3-k3"
 server_dir="debian-${arch}-13-iot-${kernel_version}"
 file_prefix="${device}-debian-${debian_stable}-iot-${kernel_version}-${arch}-${date}-${size}"
 
-ymlfile="iot-stable" ; grab_image
+ymlfile="iot-lts-73" ; grab_image
 
 size="12gb"
 kernel_version="v7.3-k3"
 server_dir="debian-${arch}-13-xfce-${kernel_version}"
 file_prefix="${device}-debian-${debian_stable}-xfce-${kernel_version}-${arch}-${date}-${size}"
 
-ymlfile="xfce-stable" ; grab_image
+ymlfile="xfce-lts-73" ; grab_image
 
 #
