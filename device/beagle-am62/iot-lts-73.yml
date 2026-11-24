@@ -1,0 +1,15 @@
+- name: BeaglePlay Debian 13 v7.3.x-k3 IoT 2026-11-23
+  description: Debian 13 (Trixie) with no desktop environment for BeaglePlay based on TI AM62 processor running linux 7.3.
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagleplay-debian-13.8-iot-v7.3-k3-arm64-2026-11-23-10gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagleplay-debian-13.8-iot-v7.3-k3-arm64-2026-11-23-10gb.bmap
+  sbom: https://raw.githubusercontent.com/beagleboard/sbom-archive/refs/heads/main/sbom/beagleplay-debian-13.8-iot-v7.3-k3-arm64-2026-11-23-10gb.syft.spdx.json.xz
+  extract_size: 10737418240
+  extract_sha256: 451794c2237d88f663695bf47a38009a1f5f48cf726b35e48e0f6b54d7b9506a
+  image_download_size: 1220783308
+  image_download_sha256: 4af99b6cd4ff3265d315dddbea291a90150d5fbef78b91da50c5b173cf09a544
+  release_date: '2026-11-23'
+  init_format: sysconf
+  devices:
+    - beagle-am62
+    - recommended
