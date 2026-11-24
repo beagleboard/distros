@@ -1,0 +1,15 @@
+- name: BeagleBone Black Debian 13 v7.3.x XFCE 2026-11-23
+  description: Debian 13 (Trixie) with the Xfce Desktop for BeagleBone Black based on TI AM335x processor running linux 7.3.
+  icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/am335x-debian-13.8-xfce-v7.3-armhf-2026-11-23-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/am335x-debian-13.8-xfce-v7.3-armhf-2026-11-23-12gb.bmap
+  sbom: https://raw.githubusercontent.com/beagleboard/sbom-archive/refs/heads/main/sbom/am335x-debian-13.8-xfce-v7.3-armhf-2026-11-23-12gb.syft.spdx.json.xz
+  extract_size: 12884901888
+  extract_sha256: a32c7cadecf2d7425ce35db03820d38bdee4f6880fa72fbc506d9d30c977942d
+  image_download_size: 877234460
+  image_download_sha256: 0b08a0903a707f1ece59864b768bb66caa379fd6726a5b67667a9d7464a51836
+  release_date: '2026-11-23'
+  init_format: sysconf
+  devices:
+    - beagle-am335
+    - recommended
