@@ -6,6 +6,10 @@ run_id () {
 }
 
 run_img () {
+	if [ -f ./device/${device}/xfce-lts-73.yml ] ; then
+		cat ./device/${device}/xfce-lts-73.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
 	if [ -f ./device/${device}/xfce-lts-618.yml ] ; then
 		cat ./device/${device}/xfce-lts-618.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
@@ -40,6 +44,10 @@ run_img () {
 	fi
 	if [ -f ./device/${device}/base-compat.yml ] ; then
 		cat ./device/${device}/base-compat.yml | sed 's/^/  /' >> ./id.yml
+		echo "" >> ./id.yml
+	fi
+	if [ -f ./device/${device}/base-lts-73.yml ] ; then
+		cat ./device/${device}/base-lts-73.yml | sed 's/^/  /' >> ./id.yml
 		echo "" >> ./id.yml
 	fi
 	if [ -f ./device/${device}/base-lts-618.yml ] ; then

@@ -60,7 +60,7 @@ grab_image () {
 }
 
 kernel_version="v5.10-ti"
-ymlfile="base-compat" ; grab_image
+ymlfile="base-compat" ; grab_bookworm
 
 kernel_version="v6.12"
 ymlfile="base-lts-612" ; grab_image
@@ -68,10 +68,16 @@ ymlfile="base-lts-612" ; grab_image
 kernel_version="v6.18"
 ymlfile="base-lts-618" ; grab_image
 
+kernel_version="v7.3"
+ymlfile="base-lts-73" ; grab_trixie
+
 image="xfce"
 size="12gb"
 
 kernel_version="v6.18"
 ymlfile="xfce-lts-618" ; grab_trixie
+
+kernel_version="v7.3"
+ymlfile="xfce-lts-73" ; grab_trixie
 
 #
