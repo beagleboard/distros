@@ -1,5 +1,5 @@
 #!/bin/bash
 
 device="bbai64"
-date="2026-10-09"
-debian_stable="13.7"
+date="2026-11-23"
+debian_stable="13.8"
