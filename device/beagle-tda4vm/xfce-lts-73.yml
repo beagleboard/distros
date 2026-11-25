@@ -1,14 +1,14 @@
-- name: BeagleBone AI-64 Debian 13 v7.3.x-k3 XFCE 2026-11-23
+- name: BeagleBone AI-64 Debian 13 v7.3.x-k3 XFCE 2026-11-24
   description: Debian 13 (Trixie) with the Xfce Desktop for BeagleBone AI-64 based on TI TDA4VM processor running linux 7.3.
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-13.8-xfce-v7.3-k3-arm64-2026-11-23-12gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-debian-13.8-xfce-v7.3-k3-arm64-2026-11-23-12gb.bmap
-  sbom: https://raw.githubusercontent.com/beagleboard/sbom-archive/refs/heads/main/sbom/bbai64-debian-13.8-xfce-v7.3-k3-arm64-2026-11-23-12gb.syft.spdx.json.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/bbai64-debian-13.8-xfce-v7.3-k3-arm64-2026-11-24-12gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/bbai64-debian-13.8-xfce-v7.3-k3-arm64-2026-11-24-12gb.bmap
+  sbom: https://raw.githubusercontent.com/beagleboard/sbom-archive/refs/heads/main/sbom/bbai64-debian-13.8-xfce-v7.3-k3-arm64-2026-11-24-12gb.syft.spdx.json.xz
   extract_size: 12884901888
-  extract_sha256: bf278933cb6bbc72c3e44f068be3b09865a220b65a59b0dfb2c63bf895aa355c
-  image_download_size: 1334608152
-  image_download_sha256: 7f40fcd15474920b3994fd3bda7b5a66f95b0fc73d08b2abb19ff3f9d0ebbee4
-  release_date: '2026-11-23'
+  extract_sha256: 52ed5ac4986895275f622da88acbab7dcb87260b23f18e4a246639042fff89be
+  image_download_size: 1337807644
+  image_download_sha256: c9398a80d1d8e0b4f3ff05fa2465ffe4bcca15d187b66535b6cbf494466abe5e
+  release_date: '2026-11-24'
   init_format: sysconf
   devices:
     - beagle-tda4vm
