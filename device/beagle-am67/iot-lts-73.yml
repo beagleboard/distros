@@ -1,14 +1,14 @@
-- name: BeagleY-AI Debian 13 v7.3.x-k3 IoT 2026-11-23
+- name: BeagleY-AI Debian 13 v7.3.x-k3 IoT 2026-11-24
   description: Debian 13 (Trixie) with no desktop environment for BeagleY-AI based on TI AM67A (J722S) processor running linux 7.3.
   icon: https://media.githubusercontent.com/media/beagleboard/bb-imager-rs/refs/heads/main/assets/os/debian.png
-  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-13.8-iot-v7.3-k3-arm64-2026-11-23-10gb.img.xz
-  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagley-ai-debian-13.8-iot-v7.3-k3-arm64-2026-11-23-10gb.bmap
-  sbom: https://raw.githubusercontent.com/beagleboard/sbom-archive/refs/heads/main/sbom/beagley-ai-debian-13.8-iot-v7.3-k3-arm64-2026-11-23-10gb.syft.spdx.json.xz
+  url: https://files.beagle.cc/file/beagleboard-public-2021/images/beagley-ai-debian-13.8-iot-v7.3-k3-arm64-2026-11-24-10gb.img.xz
+  bmap: https://raw.githubusercontent.com/beagleboard/distros/refs/heads/main/bmap-temp/beagley-ai-debian-13.8-iot-v7.3-k3-arm64-2026-11-24-10gb.bmap
+  sbom: https://raw.githubusercontent.com/beagleboard/sbom-archive/refs/heads/main/sbom/beagley-ai-debian-13.8-iot-v7.3-k3-arm64-2026-11-24-10gb.syft.spdx.json.xz
   extract_size: 10737418240
-  extract_sha256: 4e0dc95b2d5e7c3613a43ece67a659bc59cf6c84700e4d9c6acf5ee6794bec8f
-  image_download_size: 1222720172
-  image_download_sha256: 41196e264b89b408e9181df525d173f50554a18c0fb0647e4ccb058865124634
-  release_date: '2026-11-23'
+  extract_sha256: 7690f679575dd270fc994da2490512b57b79f8850fc43147dfa5c5f3bb3f172d
+  image_download_size: 1224429788
+  image_download_sha256: b4b4e2b58c915de0a1af1b10fa799921bdf891e5275a375d812ab95bd471a108
+  release_date: '2026-11-24'
   init_format: sysconf
   devices:
     - beagle-am67
